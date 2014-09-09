@@ -1,0 +1,83 @@
+<widget_description>
+
+    <widget name="ContainerDescWindow" factory="pawsContainerDescWindow" visible="no" movable="yes" savepositions="yes" style="New Standard GUI" resizable="yes" keepaspect="no">
+        <frame x="100" y="100" width="205" height="405" border="yes"/>
+        <minframe width="205" height="263" />
+        <maxframe width="205" height="595" />
+        <title resource="Scaling Title Bar" text="Container" align="left" close_button="yes"/>
+
+        <widget name="ItemImage" factory="pawsWidget" visible="yes" >
+            <frame x="5" y="0" width="20" height="20" border="no"/>
+        </widget>
+        <widget name="EditItemName" factory="pawsEditTextBox" >
+            <frame x="26" y="5" width="115" height="15" border="no"/>
+        </widget>
+        <widget name="ItemName" factory="pawsTextBox" >
+            <frame x="30" y="5" width="129" height="15"/>
+        </widget>
+        <pawsButton name="EnableEditName" id="100" style="Standard Button" visible="yes" tooltip="Edit name of this container">
+            <frame x="145" y="2" width="60" height="20" />
+            <label text="Rename"/>
+        </pawsButton>
+        <pawsButton name="SendEditName" id="110" style="Standard Button" visible="yes">
+            <frame x="145" y="2" width="60" height="20" />
+            <label text="Save"/>
+        </pawsButton>
+
+        <widget name="ItemDescription" factory="pawsMultiLineTextBox" >
+            <frame x="40" y="27" width="180" height="70" border="no"/>
+        </widget>
+
+        <widget name="SmallInvButton" factory="pawsButton" tooltip="Open Inventory">
+            <frame x="0" y="27" width="36" height="36"/>
+            <bgimage resource="InventoryBulk" alpha="0"/>
+        </widget>
+        <widget name="UseContainer" factory="pawsButton" id="300" tooltip="Use">
+            <frame x="0" y="65" width="36" height="36" />
+            <bgimage resource="ButtonPush" />
+        </widget>
+        <widget name="TakeStackAll" factory="pawsButton" tooltip = "Take and Stack All">
+            <frame x="0" y="103" width="36" height="36" />
+            <bgimage resource="ButtonPickup" />
+        </widget>
+        <widget name="TakeAll" factory="pawsButton" tooltip = "Take All">
+            <frame x="0" y="141" width="36" height="36" />
+            <bgimage resource="ButtonPickup" />
+        </widget>
+        <widget name="Combine" factory="pawsButton" id="13" tooltip="Combine items in container">
+            <frame x="0" y="179" width="36" height="36" />
+            <bgimage resource="ButtonCombine" />
+        </widget>
+        <widget name="Inventory" factory="pawsButton" id="12" tooltip="Transfer to inventory">
+            <frame x="0" y="215" width="36" height="36" />
+            <bgimage resource="ExchangeAccept" />
+        </widget>
+
+        <widget name="BulkList" factory="pawsListBox" selectable="0">
+            <frame x="40" y="110" width="160" height="288" border="no"/>
+            <columns height="36" headings="no" >
+                <column width="36" >
+                    <widget name="Bulk0" factory="pawsSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Bulk1" factory="pawsSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Bulk2" factory="pawsSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Bulk3" factory="pawsSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+            </columns>
+        </widget>
+    </widget>
+
+</widget_description>

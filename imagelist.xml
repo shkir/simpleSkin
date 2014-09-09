@@ -1,0 +1,863 @@
+<image_list>
+<!-- skin preview -->
+<image file="/paws/real_skin/preview/title.png" resource="Blue Title" />
+
+<image file="/paws/real_skin/preview/bbg.png" resource="Examine Background">
+    <texturerect x="0" y="0" width="256" height="128" />
+</image>
+
+<!-- mouse cursors -->
+<image file="/paws/real_skin/mouse.png" resource="Skins Normal Mouse Pointer">
+    <texturerect x="0" y="0" width="32" height="32" /> 
+</image>
+
+<!-- ornaments and decorations -->
+<image file="/paws/real_skin/components01.png" resource="Decoration Vertical">
+    <texturerect x="448" y="0" width="64" height="192" />
+</image>
+<image file="/paws/real_skin/components01.png" resource="Decoration Horizontal">
+    <texturerect x="352" y="192" width="160" height="64" />
+</image>
+
+<!-- NPC dialog -->
+<image file="/paws/real_skin/npcDialog.png" resource="QuestBubble">
+    <texturerect x="0" y="0" width="298" height="135" />
+</image>
+<image file="/paws/real_skin/npcDialog.png" resource="InputBubble">
+    <texturerect x="0" y="150" width="292" height="93" />
+</image>
+<image file="/paws/real_skin/npcDialog.png" resource="NPCLeftArrow">
+    <texturerect x="324" y="0" width="25" height="105" />
+</image>
+<image file="/paws/real_skin/npcDialog.png" resource="NPCRightArrow">
+    <texturerect x="324" y="149" width="25" height="105" />
+</image>
+<image file="/paws/real_skin/npcSpeechBubble.png" resource="NPCSpeechBubble">
+    <texturerect x="0" y="0" width="331" height="117" />
+</image>
+
+
+
+
+	<!-- unique background for books -->
+<image file="/paws/real_skin/readbook.png" resource="Book Background">
+    <texturerect x="0" y="0" width="721" height="478" />
+</image>
+
+	<!-- unique background for tutorial pop-ups -->
+<image file="/paws/real_skin/readbook.png" resource="Tutorial Background">
+    <texturerect x="361" y="0" width="360" height="239" />
+</image>
+
+<image file="/paws/real_skin/readbook.png" resource="Write Book">
+    <texturerect x="20" y="0" width="347" height="467" />
+</image>
+
+<!-- Exchange window -->
+<image file="/paws/real_skin/icons.png" resource="Accepted Background">
+    <texturerect x="0" y="0" width="64" height="64" />
+</image>
+
+<image file="/paws/real_skin/icons.png" resource="MerchantTrade">
+    <texturerect x="128" y="128" width="64" height="64" />
+</image>
+
+<image file="/paws/real_skin/icons.png" resource="ExchangeAccept">
+    <texturerect x="128" y="128" width="64" height="64" />
+</image>
+
+
+<!-- Skill Window Buttons -->
+<image file="/paws/real_skin/icons.png" resource="BuySkill">
+    <texturerect x="192" y="64" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="FilterSkill">
+    <texturerect x="128" y="0" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="Scribe">
+    <texturerect x="448" y="0" width="64" height="64" />
+</image>
+
+
+<!-- Modify character description window -->
+<image file="/paws/real_skin/icons.png" resource="Modify Save">
+    <texturerect x="0" y="0" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="Modify Cancel">
+    <texturerect x="64" y="0" width="64" height="64" />
+</image>
+
+
+<!-- Inventory Window character slot icons -->
+
+<image file="/paws/real_skin/icons.png" resource="InventoryLegs">
+    <texturerect x="0" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryBelt">
+    <texturerect x="64" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryBoots">
+    <texturerect x="128" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryGloves">
+    <texturerect x="192" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryArms">
+    <texturerect x="256" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryNeck">
+    <texturerect x="320" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryHead">
+    <texturerect x="384" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryTorso">
+    <texturerect x="448" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryBack">
+    <texturerect x="512" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryBracers">
+    <texturerect x="576" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryRight">
+    <texturerect x="640" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryLeft">
+    <texturerect x="704" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryRightFinger">
+    <texturerect x="768" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryLeftFinger">
+    <texturerect x="832" y="512" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryMind">
+    <texturerect x="896" y="512" width="64" height="64" />
+</image>
+
+
+<!-- Interact Window Buttons -->
+<image file="/paws/real_skin/icons.png" resource="ButtonLook">
+    <texturerect x="64" y="64" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonOpen">
+    <texturerect x="320" y="64" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonPush">
+    <texturerect x="320" y="128" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonCombine">
+    <texturerect x="448" y="64" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonConstruct">
+    <texturerect x="448" y="64" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonPickup">
+    <texturerect x="0" y="128" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonDrop">
+    <texturerect x="384" y="128" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonClose">
+    <texturerect x="64" y="0" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonLoot">
+    <texturerect x="64" y="128" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonBuy">
+    <texturerect x="448" y="128" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonSell">
+    <texturerect x="192" y="64" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonAttack">
+    <texturerect x="320" y="0" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonGive">
+    <texturerect x="192" y="128" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonTrain">
+    <texturerect x="384" y="0" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonSpeak">
+    <texturerect x="0" y="64" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonPetDismiss">
+    <texturerect x="640" y="64" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonMarriage">
+    <texturerect x="512" y="64" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonDivorce">
+    <texturerect x="576" y="64" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonIntroduce">
+    <texturerect x="256" y="128" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonBanking">
+    <texturerect x="128" y="64" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonMount">
+    <texturerect x="704" y="64" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonUnmount">
+    <texturerect x="704" y="64" width="64" height="64" /> 
+</image>
+
+
+<!-- standard buttons and backgrounds -->
+
+<image file="/paws/real_skin/components01.png" resource="Standard Background" tiled="true">
+  <texturerect x="304" y="48" width="128" height="128" />
+  <alpha level="0" />
+</image>
+
+<image file="/paws/real_skin/components01.png" resource="Blue Background" tiled="true" >
+  <texturerect x="240" y="180" width="64" height="64" />
+  <alpha level="0" />
+</image>
+
+<image file="/paws/real_skin/components01.png" resource="Grey Background" tiled="true">
+  <texturerect x="240" y="180" width="64" height="64" />
+  <alpha level="0" />
+  </image>
+
+<image file="/paws/real_skin/icons.png" resource="view">
+    <texturerect x="128" y="0" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryBulk">
+    <texturerect x="192" y="0" width="64" height="64" /> 
+</image>
+
+<!-- Money Icons -->
+<image file="/paws/real_skin/icons.png" resource="MoneyTrias">
+    <texturerect x="704" y="0" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="MoneyHexas">
+    <texturerect x="768" y="0" width="64" height="64" /> 
+
+</image>
+<image file="/paws/real_skin/icons.png" resource="MoneyOctas">
+    <texturerect x="832" y="0" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="MoneyCircles">
+    <texturerect x="896" y="0" width="64" height="64" /> 
+</image>
+
+
+<!-- Magic Icons -->
+<image file="/paws/real_skin/icons.png" resource="PurifyGlyphButton">
+    <texturerect x="64" y="192" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="SaveSpellButton">
+    <texturerect x="448" y="0" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="CastSpellButton">
+    <texturerect x="512" y="128" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ResearchSpellButton">
+    <texturerect x="0" y="192" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ActiveMagicButton">
+    <texturerect x="128" y="192" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="Offensive Magic">
+    <texturerect x="192" y="192" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="Defensive Magic">
+    <texturerect x="256" y="192" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="Cast Magic">
+    <texturerect x="320" y="192" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="Glyph Magic">
+    <texturerect x="384" y="192" width="64" height="64" /> 
+</image>
+
+<!-- Magic School Icons -->
+
+<image file="/paws/real_skin/icons.png" resource="Crystal Magic School">
+    <texturerect x="960" y="192" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="Azure Magic School">
+    <texturerect x="896" y="192" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="Red Magic School">
+    <texturerect x="832" y="192" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="Dark Magic School">
+    <texturerect x="768" y="192" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="Brown Magic School">
+    <texturerect x="704" y="192" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="Blue Magic School">
+    <texturerect x="640" y="192" width="64" height="64" /> 
+</image>
+
+
+
+
+
+
+<!-- Glyph Slot Icons -->
+<image file="/paws/real_skin/icons.png" resource="GlyphSlotPurified">
+    <texturerect x="576" y="192" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="GlyphSlotPurifying">
+    <texturerect x="512" y="192" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="GlyphSlotToBePurified">
+    <texturerect x="448" y="192" width="64" height="64" />
+</image>
+
+
+
+
+
+<!-- Images for the info/status window -->
+<image file="/paws/real_skin/icons.png"	resource="ButtonAttackBloodyActive" >
+    <texturerect x="704" y="448" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png"	resource="ButtonAttackAggressiveActive" >
+    <texturerect x="640" y="448" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png"	resource="ButtonAttackNormalActive" >
+    <texturerect x="576" y="448" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png"	resource="ButtonAttackDefensiveActive" >
+    <texturerect x="512" y="448" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png"	resource="ButtonAttackFullDefActive" >
+    <texturerect x="448" y="448" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png"	resource="ButtonStopAttackActive" >
+    <texturerect x="384" y="448" width="64" height="64" /> 
+</image>
+
+
+<image file="/paws/real_skin/icons.png"	resource="ButtonAttackBloody">
+    <texturerect x="320" y="448" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png"	resource="ButtonAttackAggressive">
+    <texturerect x="256" y="448" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png"	resource="ButtonAttackNormal" >
+    <texturerect x="192" y="448" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png"	resource="ButtonAttackDefensive" >
+    <texturerect x="128" y="448" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png"	resource="ButtonAttackFullDef" >
+    <texturerect x="64" y="448" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ButtonStopAttack" >
+    <texturerect x="0" y="448" width="64" height="64" /> 
+</image>
+
+
+
+
+
+
+<!-- New GUI system (tiling borders) -->
+
+<!-- Mouse pointers -->
+<image file="/paws/real_skin/components01.png" resource="Mouse Pointer">
+    <texturerect x="0" y="0" width="32" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Mouse Pointer Highlight">
+    <texturerect x="0" y="32" width="32" height="32" /> 
+</image>
+
+
+<!-- Scrollbar -->
+<image file="/paws/real_skin/components01.png" resource="Up Arrow">
+    <texturerect x="32" y="0" width="32" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Up Arrow Highlight">
+    <texturerect x="64" y="0" width="32" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Up Arrow Disabled">
+    <texturerect x="96" y="0" width="32" height="32" /> 
+</image>
+
+<image file="/paws/real_skin/components01.png" resource="Down Arrow">
+    <texturerect x="32" y="32" width="32" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Down Arrow Highlight">
+    <texturerect x="64" y="32" width="32" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Down Arrow Disabled">
+    <texturerect x="96" y="32" width="32" height="32" /> 
+</image>
+
+
+<image file="/paws/real_skin/components01.png" resource="Right Arrow">
+    <texturerect x="160" y="0" width="32" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Right Arrow Highlight">
+    <texturerect x="192" y="0" width="32" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Right Arrow Disabled">
+    <texturerect x="224" y="0" width="32" height="32" /> 
+</image>
+
+<image file="/paws/real_skin/components01.png" resource="Left Arrow">
+    <texturerect x="160" y="32" width="32" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Left Arrow Highlight">
+    <texturerect x="192" y="32" width="32" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Left Arrow Disabled">
+    <texturerect x="224" y="32" width="32" height="32" /> 
+</image>
+
+
+<image file="/paws/real_skin/components01.png" resource="Scrollbar Background Vertical">
+    <texturerect x="128" y="0" width="32" height="160" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Scrollbar Background Horizontal">
+    <texturerect x="192" y="224" width="160" height="32" /> 
+</image>
+
+<image file="/paws/real_skin/components01.png" resource="ScrollBar Thumb">
+    <texturerect x="256" y="32" width="32" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="ScrollBar Thumb Moving">
+    <texturerect x="256" y="0" width="32" height="32" /> 
+</image>
+
+
+
+<!-- Checkbox -->
+<image file="/paws/real_skin/components01.png" resource="Checkbox Off">
+    <texturerect x="64" y="240" width="16" height="16" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Checkbox On">
+    <texturerect x="80" y="240" width="16" height="16" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Checkbox Off Locked">
+    <texturerect x="96" y="240" width="16" height="16" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Checkbox On Locked">
+    <texturerect x="112" y="240" width="16" height="16" /> 
+</image>
+
+
+<!-- Radio Button -->
+<image file="/paws/real_skin/components01.png" resource="radiooff">
+    <texturerect x="0" y="240" width="16" height="16" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="radioon">
+    <texturerect x="16" y="240" width="16" height="16" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Radio Off Locked">
+    <texturerect x="32" y="240" width="16" height="16" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Radio On Locked">
+    <texturerect x="48" y="240" width="16" height="16" /> 
+</image>
+
+
+<!-- Progressbar -->
+<image file="/paws/real_skin/components01.png" resource="Progressbar Background">
+    <texturerect x="160" y="64" width="128" height="16" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Progressbar Mask">
+    <texturerect x="160" y="80" width="128" height="16" /> 
+</image>
+<frame resource="Scaling Progressbar Background" file="/paws/real_skin/components01.png" type="horizontal">
+	<left   tx="160"  ty="64" tw="3" th="16"/>
+	<middle tx="163"  ty="64" tw="122" th="16" />
+	<right  tx="285" ty="64" tw="3" th="16"/>
+</frame>
+<frame resource="Scaling Progressbar Mask" file="/paws/real_skin/components01.png" type="horizontal">
+	<left   tx="160"  ty="80" tw="3" th="16"/>
+	<middle tx="163"  ty="80" tw="122" th="16" />
+	<right  tx="285" ty="80" tw="3" th="16"/>
+</frame>
+
+
+
+
+<!-- Tree Controls -->
+<image file="/paws/real_skin/components01.png" resource="treeexpand">
+    <texturerect x="144" y="160" width="8" height="8" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="treecollapse">
+    <texturerect x="152" y="160" width="8" height="8" /> 
+</image>
+
+
+
+<!-- Generic Slot -->
+<image file="/paws/real_skin/components01.png" resource="Standard Slot">
+    <texturerect x="0" y="160" width="48" height="48" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Standard Slot Highlight">
+    <texturerect x="48" y="160" width="48" height="48" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Standard Slot Disabled">
+    <texturerect x="96" y="160" width="48" height="48" /> 
+</image>
+<frame resource="Scaling Slot" file="/paws/real_skin/components01.png">
+    <top_left     tx="0" ty="160"  tw="6" th="6"/>
+    <top          tx="6" ty="160"  tw="36" th="6" tile="true" />
+    <top_right    tx="42" ty="160"  tw="6" th="6"/>
+    <left         tx="0" ty="166" tw="6" th="36" tile="true" />
+    <middle       tx="6" ty="166" tw="36" th="36" tile="true" />
+    <right        tx="42" ty="166" tw="6" th="36" tile="true" />
+    <bottom_left  tx="0" ty="202" tw="6" th="6"/>
+    <bottom       tx="6" ty="202" tw="36" th="6" tile="true" />
+    <bottom_right tx="42" ty="202" tw="6" th="6"/>
+</frame>
+<frame resource="Scaling Slot Highlight" file="/paws/real_skin/components01.png">
+    <top_left     tx="48" ty="160"  tw="6" th="6"/>
+    <top          tx="54" ty="160"  tw="36" th="6" tile="true" />
+    <top_right    tx="90" ty="160"  tw="6" th="6"/>
+    <left         tx="48" ty="166" tw="6" th="36" tile="true" />
+    <middle       tx="54" ty="166" tw="36" th="36" tile="true" />
+    <right        tx="90" ty="166" tw="6" th="36" tile="true" />
+    <bottom_left  tx="48" ty="202" tw="6" th="6"/>
+    <bottom       tx="54" ty="202" tw="36" th="6" tile="true" />
+    <bottom_right tx="90" ty="202" tw="6" th="6"/>
+</frame>
+<frame resource="Scaling Slot Disabled" file="/paws/real_skin/components01.png">
+    <top_left     tx="96" ty="160"  tw="6" th="6"/>
+    <top          tx="102" ty="160"  tw="36" th="6" tile="true" />
+    <top_right    tx="138" ty="160"  tw="6" th="6"/>
+    <left         tx="96" ty="166" tw="6" th="36" tile="true" />
+    <middle       tx="102" ty="166" tw="36" th="36" tile="true" />
+    <right        tx="138" ty="166" tw="6" th="36" tile="true" />
+    <bottom_left  tx="96" ty="202" tw="6" th="6"/>
+    <bottom       tx="102" ty="202" tw="36" th="6" tile="true" />
+    <bottom_right tx="138" ty="202" tw="6" th="6"/>
+</frame>
+
+
+<!-- Generic Button -->
+
+<image file="/paws/real_skin/components01.png" resource="Standard Button">
+    <texturerect x="0" y="64" width="128" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Standard Button Down">
+    <texturerect x="0" y="96" width="128" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="Standard Button Disabled">
+    <texturerect x="0" y="128" width="128" height="32" /> 
+</image>
+
+<frame resource="Scaling Button" file="/paws/real_skin/components01.png">
+    <top_left     tx="0" ty="64"  tw="5" th="5"/>
+    <top          tx="5" ty="64"  tw="118" th="5" tile="true" />
+    <top_right    tx="123" ty="64"  tw="5" th="5"/>
+    <left         tx="0" ty="69" tw="5" th="22" tile="true" />
+    <middle       tx="5" ty="69" tw="118" th="22" tile="true" />
+    <right        tx="123" ty="69" tw="5" th="22" tile="true" />
+    <bottom_left  tx="0" ty="91" tw="5" th="5"/>
+    <bottom       tx="5" ty="91" tw="118" th="5" tile="true" />
+    <bottom_right tx="123" ty="91" tw="5" th="5"/>
+</frame>
+
+<frame resource="Scaling Button Down" file="/paws/real_skin/components01.png">
+    <top_left     tx="0" ty="96"  tw="5" th="5"/>
+    <top          tx="5" ty="96"  tw="118" th="5" tile="true" />
+    <top_right    tx="123" ty="96"  tw="5" th="5"/>
+    <left         tx="0" ty="101" tw="5" th="22" tile="true" />
+    <middle       tx="5" ty="101" tw="118" th="22" tile="true" />
+    <right        tx="123" ty="101" tw="5" th="22" tile="true" />
+    <bottom_left  tx="0" ty="123" tw="5" th="5"/>
+    <bottom       tx="5" ty="123" tw="118" th="5" tile="true" />
+    <bottom_right tx="123" ty="123" tw="5" th="5"/>
+</frame>
+
+<frame resource="Scaling Button Disabled" file="/paws/real_skin/components01.png">
+    <top_left     tx="0" ty="128"  tw="5" th="5"/>
+    <top          tx="5" ty="128"  tw="118" th="5" tile="true" />
+    <top_right    tx="123" ty="128"  tw="5" th="5"/>
+    <left         tx="0" ty="133" tw="5" th="22" tile="true" />
+    <middle       tx="5" ty="133" tw="118" th="22" tile="true" />
+    <right        tx="123" ty="133" tw="5" th="22" tile="true" />
+    <bottom_left  tx="0" ty="155" tw="5" th="5"/>
+    <bottom       tx="5" ty="155" tw="118" th="5" tile="true" />
+    <bottom_right tx="123" ty="155" tw="5" th="5"/>
+</frame>
+
+
+<!-- Text Area -->
+
+<frame resource="Scaling Field Background" file="/paws/real_skin/components01.png">
+    <top_left     tx="169"  ty="105"  tw="1" th="1"/>
+    <top          tx="170"  ty="105"  tw="108" th="1" tile="true" />
+    <top_right    tx="278" ty="105"  tw="1" th="1"/>
+    <left         tx="169"  ty="106"  tw="1" th="76" tile="true" />
+    <middle       tx="170"  ty="106" tw="108" th="76" tile="true" />
+    <right        tx="278" ty="106"  tw="1" th="76" tile="true" />
+    <bottom_left  tx="169"  ty="182"  tw="1" th="1"/>
+    <bottom       tx="170"  ty="182"  tw="108" th="1" tile="true" />
+    <bottom_right tx="278" ty="182"  tw="1" th="1"/>
+</frame>
+
+<!--
+<frame resource="Highlight" file="/paws/real_skin/components01.png">
+    <top_left     tx="160"  ty="192"  tw="9" th="5"/>
+    <top          tx="169"  ty="192"  tw="110" th="5" tile="true" />
+    <top_right    tx="279" ty="192"  tw="9" th="5"/>
+    <left         tx="160"  ty="197"  tw="9" th="6" tile="true" />
+    <middle       tx="169"  ty="197" tw="110" th="6" tile="true" />
+    <right        tx="279" ty="197"  tw="9" th="6" tile="true" />
+    <bottom_left  tx="160"  ty="203"  tw="9" th="5"/>
+    <bottom       tx="169"  ty="203"  tw="110" th="5" tile="true" />
+    <bottom_right tx="279" ty="203"  tw="9" th="5"/>
+</frame>
+-->
+<image file="/paws/real_skin/components01.png" resource="Highlight">
+    <texturerect x="160" y="192" width="128" height="16" /> 
+</image>
+
+<frame resource="Scaling Widget Background" file="/paws/real_skin/components01.png">
+    <top_left     tx="160"  ty="96"  tw="10" th="10"/>
+    <top          tx="170"  ty="96"  tw="108" th="10" tile="true" />
+    <top_right    tx="278" ty="96"  tw="10" th="10"/>
+    <left         tx="160"  ty="106"  tw="10" th="76" tile="true" />
+    <middle       tx="170"  ty="106" tw="108" th="76" tile="true" />
+    <right        tx="278" ty="106"  tw="10" th="76" tile="true" />
+    <bottom_left  tx="160"  ty="182"  tw="10" th="10"/>
+    <bottom       tx="170"  ty="182"  tw="108" th="10" tile="true" />
+    <bottom_right tx="278" ty="182"  tw="10" th="10"/>
+</frame>
+
+
+
+<!-- Tabs -->
+<image file="/paws/real_skin/components01.png" resource="Standard Tab">
+    <texturerect x="0" y="208" width="64" height="32" />
+</image>
+<image file="/paws/real_skin/components01.png" resource="Standard Tab Highlight">
+    <texturerect x="64" y="208" width="64" height="32" />
+</image>
+<image file="/paws/real_skin/components01.png" resource="Standard Tab Disabled">
+    <texturerect x="128" y="208" width="64" height="32" />
+</image>
+<frame resource="Scaling Tab" file="/paws/real_skin/components01.png">
+    <top_left     tx="0"  ty="208"  tw="8" th="8"/>
+    <top          tx="8"  ty="208"  tw="48" th="8" tile="true" />
+    <top_right    tx="56" ty="208"  tw="8" th="8"/>
+    <left         tx="0"  ty="216"  tw="8" th="16" tile="true" />
+    <middle       tx="8"  ty="216" tw="48" th="16" tile="true" />
+    <right        tx="56" ty="216"  tw="8" th="16" tile="true" />
+    <bottom_left  tx="0"  ty="232"  tw="8" th="8"/>
+    <bottom       tx="8"  ty="232"  tw="48" th="8" tile="true" />
+    <bottom_right tx="56" ty="232"  tw="8" th="8"/>
+</frame>
+<frame resource="Scaling Tab Highlight" file="/paws/real_skin/components01.png">
+    <top_left     tx="64"  ty="208"  tw="8" th="8"/>
+    <top          tx="72"  ty="208"  tw="48" th="8" tile="true" />
+    <top_right    tx="120" ty="208"  tw="8" th="8"/>
+    <left         tx="64"  ty="216"  tw="8" th="16" tile="true" />
+    <middle       tx="72"  ty="216" tw="48" th="16" tile="true" />
+    <right        tx="120" ty="216"  tw="8" th="16" tile="true" />
+    <bottom_left  tx="64"  ty="232"  tw="8" th="8"/>
+    <bottom       tx="72"  ty="232"  tw="48" th="8" tile="true" />
+    <bottom_right tx="120" ty="232"  tw="8" th="8"/>
+</frame>
+<frame resource="Scaling Tab Disabled" file="/paws/real_skin/components01.png">
+    <top_left     tx="128"  ty="208"  tw="8" th="8"/>
+    <top          tx="136"  ty="208"  tw="48" th="8" tile="true" />
+    <top_right    tx="184" ty="208"  tw="8" th="8"/>
+    <left         tx="128"  ty="216"  tw="8" th="16" tile="true" />
+    <middle       tx="136"  ty="216" tw="48" th="16" tile="true" />
+    <right        tx="184" ty="216"  tw="8" th="16" tile="true" />
+    <bottom_left  tx="128"  ty="232"  tw="8" th="8"/>
+    <bottom       tx="136"  ty="232"  tw="48" th="8" tile="true" />
+    <bottom_right tx="184" ty="232"  tw="8" th="8"/>
+</frame>
+
+
+
+<!-- Window -->
+<frame resource="Scaling Title Bar" file="/paws/real_skin/components01.png">
+    <top_left     tx="288"  ty="0"  tw="16" th="11"/>
+    <top          tx="304"  ty="0"  tw="128" th="11" tile="true" />
+    <top_right    tx="432" ty="0"  tw="16" th="11"/>
+    <left         tx="288"  ty="11" tw="16"  th="10" tile="true" />
+    <middle       tx="304"  ty="11" tw="128" th="10" tile="true" />
+    <right        tx="432" ty="11"  tw="16" th="10" tile="true" />
+    <bottom_left  tx="288"  ty="21"  tw="16" th="11"/>
+    <bottom       tx="304"  ty="21"  tw="128" th="11" tile="true" />
+    <bottom_right tx="432" ty="21"  tw="16" th="11"/>
+</frame>
+<frame resource="Scaling Window Background" file="/paws/real_skin/components01.png">
+    <top_left     tx="288"  ty="32"  tw="16" th="16"/>
+    <top          tx="304"  ty="32"  tw="128" th="16" tile="true" />
+    <top_right    tx="432" ty="32"  tw="16" th="16"/>
+    <left         tx="288"  ty="48" tw="16"  th="128" tile="true" />
+    <middle       tx="304"  ty="48" tw="128" th="128" tile="true" />
+    <right        tx="432" ty="48"  tw="16" th="128" tile="true" />
+    <bottom_left  tx="288"  ty="176"  tw="16" th="16"/>
+    <bottom       tx="304"  ty="176"  tw="128" th="16" tile="true" />
+    <bottom_right tx="432" ty="176"  tw="16" th="16"/>
+</frame>
+<image file="/paws/real_skin/components01.png" resource="ResizeBox">
+    <texturerect x="144" y="168" width="8" height="8" />
+</image>
+<image file="/paws/real_skin/components01.png" resource="quit">
+    <texturerect x="144" y="176" width="16" height="16" />
+</image>
+
+
+<!-- Toolbar -->
+<image file="/paws/real_skin/components01.png" resource="MiniDown">
+    <texturerect x="288" y="192" width="32" height="32" /> 
+</image>
+<image file="/paws/real_skin/components01.png" resource="MiniUp">
+    <texturerect x="320" y="192" width="32" height="32" /> 
+</image>
+
+
+<image file="/paws/real_skin/icons.png" resource="QuitButton">
+    <texturerect x="0" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ChatButton">
+    <texturerect x="64" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="BuddyButton">
+    <texturerect x="128" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="GroupButton">
+    <texturerect x="192" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="GuildButton">
+    <texturerect x="256" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="HelpButton">
+    <texturerect x="320" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="InfoButton">
+    <texturerect x="384" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="SkillsButton">
+    <texturerect x="448" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryButton">
+    <texturerect x="512" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="MagicButton">
+    <texturerect x="576" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="QuestButton">
+    <texturerect x="640" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ShortcutButton">
+    <texturerect x="704" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="PetitionButton">
+    <texturerect x="768" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="OptionsButton">
+    <texturerect x="832" y="320" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="HotBarButton">
+    <texturerect x="896" y="320" width="64" height="64" /> 
+</image>
+
+
+
+<image file="/paws/real_skin/icons.png" resource="QuitButton_over">
+    <texturerect x="0" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ChatButton_over">
+    <texturerect x="64" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="BuddyButton_over">
+    <texturerect x="128" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="GroupButton_over">
+    <texturerect x="192" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="GuildButton_over">
+    <texturerect x="256" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="HelpButton_over">
+    <texturerect x="320" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="InfoButton_over">
+    <texturerect x="384" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="SkillsButton_over">
+    <texturerect x="448" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryButton_over">
+    <texturerect x="512" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="MagicButton_over">
+    <texturerect x="576" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="QuestButton_over">
+    <texturerect x="640" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ShortcutButton_over">
+    <texturerect x="704" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="PetitionButton_over">
+    <texturerect x="768" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="OptionsButton_over">
+    <texturerect x="832" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="HotBarButton_over">
+    <texturerect x="896" y="256" width="64" height="64" /> 
+</image>
+
+
+
+<image file="/paws/real_skin/icons.png" resource="QuitButton_active">
+    <texturerect x="0" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ChatButton_active">
+    <texturerect x="64" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="BuddyButton_active">
+    <texturerect x="128" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="GroupButton_active">
+    <texturerect x="192" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="GuildButton_active">
+    <texturerect x="256" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="HelpButton_active">
+    <texturerect x="320" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="InfoButton_active">
+    <texturerect x="384" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="SkillsButton_active">
+    <texturerect x="448" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="InventoryButton_active">
+    <texturerect x="512" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="MagicButton_active">
+    <texturerect x="576" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="QuestButton_active">
+    <texturerect x="640" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="ShortcutButton_active">
+    <texturerect x="704" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="PetitionButton_active">
+    <texturerect x="768" y="384" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="OptionsButton_active">
+    <texturerect x="832" y="256" width="64" height="64" /> 
+</image>
+<image file="/paws/real_skin/icons.png" resource="HotBarButton_active">
+    <texturerect x="896" y="256" width="64" height="64" /> 
+</image>
+
+</image_list>
+
