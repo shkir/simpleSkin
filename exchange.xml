@@ -1,0 +1,116 @@
+<widget_description>
+
+<widget name="ExchangeWindow" factory="pawsExchangeWindow" visible="no" movable="yes" style="New Standard GUI">
+    <frame x="100" y="100" width="350" height="214" border="yes" />
+    <title resource="Scaling Title Bar" text="Exchange" align="left" close_button="yes"/>
+
+    <!-- Accept, Open Inventory BUTTONS -->
+    <widget name="Accept" factory="pawsButton" id="100" tooltip="Accept trade">
+        <frame x="10" y="174" width="36" height="36" />
+        <bgimage resource="ExchangeAccept" />
+    </widget>
+    <widget name="SmallInvButton" factory="pawsButton" tooltip="Open Inventory">
+            <frame x="110" y="174" width="36" height="36"/>
+            <bgimage resource="InventoryBulk" alpha="0"/>
+    </widget>
+
+    <!-- OTHER PLAYER NAME -->
+    <widget name="other_player" factory="pawsTextBox" >
+        <frame x="5" y="5" width="250" height="20" />
+    </widget>
+
+    <widget name="offeringlbl" factory="pawsTextBox" style="Header Font">
+        <frame x="5" y="25" width="135" height="20" />
+        <text string="Give:" horizAdjust="LEFT" />
+    </widget>
+
+    <!-- OFFERING -->
+    <widget name="Offering Frame" factory="pawsWidget">
+        <frame x="0" y="45" width="165" height="129" border="yes"/>
+
+        <!-- BULK -->
+        <widget name="OfferingList" factory="pawsListBox" selectable="0">
+        <frame x="0" y="0" width="108" height="108" border="no"/>
+            <bgimage resource="Scaling Field Background" />
+
+            <columns height="36" headings="no" >
+                <column width="36" >
+                    <widget name="offering_Bulk0" factory="pawsSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="offering_Bulk1" factory="pawsSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="offering_Bulk2" factory="pawsSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+            </columns>
+        </widget>
+
+        <widget name="OfferingMoney" factory="pawsMoney" border="no">
+            <frame x="110" y="0" width="64" height="100"/>
+        </widget>
+
+        <widget name="TotalTriasOffer" factory="pawsTextBox">
+            <frame x="0" y="109" width="165" height="20" />
+        </widget>
+
+
+    </widget>
+
+
+
+
+    <widget name="receivinglbl" factory="pawsTextBox" >
+        <frame x="180" y="25" width="135" height="20" style="Header Font" />
+        <text string="Receive:" horizAdjust="LEFT" />
+    </widget>
+
+    <!-- RECEIVING -->
+    <widget name="Receiving Frame" factory="pawsWidget">
+        <frame x="180" y="45" width="165" height="129" border="yes"/>
+
+        <!-- BULK -->
+        <widget name="ReceivingList" factory="pawsListBox" selectable="0">
+        <frame x="0" y="0" width="108" height="108" border="no"/>
+            <bgimage resource="Scaling Field Background" />
+
+            <columns height="36" headings="no" >
+                <column width="36" >
+                    <widget name="receiving_Bulk0" factory="pawsSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="receiving_Bulk1" factory="pawsSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="receiving_Bulk2" factory="pawsSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+            </columns>
+        </widget>
+
+        <widget name="ReceivingMoney" factory="pawsMoney" border="no">
+            <frame x="110" y="0" width="64" height="100"/>
+        </widget>
+
+        <widget name="TotalTriasRec" factory="pawsTextBox">
+            <frame x="0" y="109" width="165" height="20" />
+        </widget>
+
+
+    </widget>
+
+
+</widget>
+
+</widget_description>
