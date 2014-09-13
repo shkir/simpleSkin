@@ -1,14 +1,14 @@
 <widget_description>
     <widget name="ChatWindow" factory="pawsChatWindow" visible="yes" savepositions="yes" movable="yes" resizable="yes" keepaspect="no" configurable="yes" style="New Standard GUI" scalefont="no" alpha="0">
 
-        <frame x="300" y="400" width="510" height="167" border="no" />
-        <minframe width="350" height="100" />
+        <frame x="300" y="400" width="300" height="100" border="no" />
+        <minframe width="300" height="100" />
         <maxframe width="1000" height="1000" />
         <title resource="Scaling Title Bar" text="Communication" align="left" close_button="yes"/>
         <bgimage resource="Scaling Widget Background" />
 
         <widget name="InputText" factory="pawsEditTextBox" alwaysontop="yes">
-            <frame x="0" y="145" width="500" height="20" border="no" />
+            <frame x="0" y="82" width="285" height="16" border="no" />
             <attachpoints>
                 <attach point="ATTACH_RIGHT" />
                 <attach point="ATTACH_BOTTOM" />
@@ -16,10 +16,8 @@
             </attachpoints>
         </widget>
 
-
-
         <widget name="Chat Tabs" factory="pawsTabWindow">
-            <frame x="0" y="0" width="500" height="268" border="no" />
+            <frame x="0" y="0" width="300" height="80" border="no" />
             <attachpoints>
                 <attach point="ATTACH_BOTTOM" />
                 <attach point="ATTACH_TOP" />
@@ -27,16 +25,15 @@
                 <attach point="ATTACH_RIGHT" />
             </attachpoints>
 
-
 	    <widget name="ButtonsBackground" factory="pawsWidget">
-                <frame x="0" y="0" width="60" height="268" border="no" />
-		<bgimage resource="Scaling Field Background" />
+                <frame x="0" y="0" width="300" height="80" border="no" />
+	    	<bgimage resource="Scaling Field Background" />
                 <attachpoints>
                     <attach point="ATTACH_TOP" />
                     <attach point="ATTACH_BOTTOM" />
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_RIGHT" />
-		</attachpoints>
+	    	</attachpoints>
             </widget>
 
             <widget name="Main Button" factory="pawsButton" toggle="yes" id="1000" tooltip="Main" shadows="yes" style="Standard Tab">
@@ -132,7 +129,7 @@
 
 
             <widget name="MainText" factory="pawsMessageTextBox" visible="no" id="1100">
-                <frame x="0" y="20" width="510" height="120" border="no" />
+                <frame x="0" y="24" width="300" height="48" border="no" />
                 <!-- <bgimage resource="Scaling Field Background" /> -->
                 <attachpoints>
                     <attach point="ATTACH_RIGHT" />
@@ -140,13 +137,16 @@
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
-                <pawsScrollBar width="20" maxValue="1.0" />
 		<subscriptions overwrite = "false">
 		    <subscribe data="subMainText" />
 		</subscriptions>
+                <pawsScrollBar width="15" maxValue="1.0">
+		    <up   width="15" height="15"/>
+		    <down width="15" height="15"/>
+		</pawsScrollBar>
             </widget>
             <widget name="SystemText" factory="pawsMessageTextBox" visible="no" id="1101">
-                <frame x="0" y="20" width="510" height="120" border="no" />
+                <frame x="0" y="24" width="300" height="48" border="no" />
                 <!-- <bgimage resource="Scaling Field Background" /> -->
                 <attachpoints>
                     <attach point="ATTACH_RIGHT" />
@@ -157,10 +157,13 @@
 		<subscriptions overwrite = "false">
 		    <subscribe data="subSystemText" />
 		</subscriptions>
-		<pawsScrollBar width="20"  maxValue="1.0" />
+                <pawsScrollBar width="15" maxValue="1.0">
+		    <up   width="15" height="15"/>
+		    <down width="15" height="15"/>
+		</pawsScrollBar>
             </widget>
             <widget name="NpcText" factory="pawsMessageTextBox" visible="no" id="1102">
-                <frame x="0" y="20" width="510" height="120" border="no" />
+                <frame x="0" y="24" width="300" height="48" border="no" />
                 <!-- <bgimage resource="Scaling Field Background" /> -->
                 <attachpoints>
                     <attach point="ATTACH_RIGHT" />
@@ -171,10 +174,13 @@
 		<subscriptions overwrite = "false">
 		    <subscribe data="subNPCText" />
 		</subscriptions>
-		<pawsScrollBar width="20"  maxValue="1.0" />
+                <pawsScrollBar width="15" maxValue="1.0">
+		    <up   width="15" height="15"/>
+		    <down width="15" height="15"/>
+		</pawsScrollBar>
             </widget>
             <widget name="TellText" factory="pawsMessageTextBox" visible="no" id="1103">
-                <frame x="0" y="20" width="510" height="120" border="no" />
+                <frame x="0" y="24" width="300" height="48" border="no" />
                 <!-- <bgimage resource="Scaling Field Background" /> -->
                 <attachpoints>
                     <attach point="ATTACH_RIGHT" />
@@ -185,10 +191,13 @@
 		<subscriptions overwrite = "false">
 		    <subscribe data="subTellText" />
 		</subscriptions>
-		<pawsScrollBar width="20"  maxValue="1.0" />
+                <pawsScrollBar width="15" maxValue="1.0">
+		    <up   width="15" height="15"/>
+		    <down width="15" height="15"/>
+		</pawsScrollBar>
             </widget>
             <widget name="GuildText" factory="pawsMessageTextBox" visible="no" id="1104">
-                <frame x="0" y="20" width="510" height="120" border="no" />
+                <frame x="0" y="24" width="300" height="48" border="no" />
                 <!-- <bgimage resource="Scaling Field Background" /> -->
                 <attachpoints>
                     <attach point="ATTACH_RIGHT" />
@@ -199,10 +208,13 @@
 		<subscriptions overwrite = "false">
 		    <subscribe data="subGuildText" />
 		</subscriptions>
-		<pawsScrollBar width="20"  maxValue="1.0" />
+                <pawsScrollBar width="15" maxValue="1.0">
+		    <up   width="15" height="15"/>
+		    <down width="15" height="15"/>
+		</pawsScrollBar>
             </widget>
             <widget name="AllianceText" factory="pawsMessageTextBox" visible="no" id="1109">
-                <frame x="0" y="20" width="510" height="120" border="no" />
+                <frame x="0" y="24" width="300" height="48" border="no" />
                 <!-- <bgimage resource="Scaling Field Background" /> -->
                 <attachpoints>
                     <attach point="ATTACH_RIGHT" />
@@ -213,10 +225,13 @@
 		<subscriptions overwrite = "false">
 		    <subscribe data="subAllianceText" />
 		</subscriptions>
-		<pawsScrollBar width="20"  maxValue="1.0" />
+                <pawsScrollBar width="15" maxValue="1.0">
+		    <up   width="15" height="15"/>
+		    <down width="15" height="15"/>
+		</pawsScrollBar>
             </widget>
             <widget name="GroupText" factory="pawsMessageTextBox" visible="no" id="1105">
-                <frame x="0" y="20" width="510" height="120" border="no" />
+                <frame x="0" y="24" width="300" height="48" border="no" />
                 <!-- <bgimage resource="Scaling Field Background" /> -->
                 <attachpoints>
                     <attach point="ATTACH_RIGHT" />
@@ -227,10 +242,13 @@
 		<subscriptions overwrite = "false">
 		    <subscribe data="subGroupText" />
 		</subscriptions>
-		<pawsScrollBar width="20"  maxValue="1.0" />
+                <pawsScrollBar width="15" maxValue="1.0">
+		    <up   width="15" height="15"/>
+		    <down width="15" height="15"/>
+		</pawsScrollBar>
             </widget>
             <widget name="AuctionText" factory="pawsMessageTextBox" visible="no" id="1106">
-                <frame x="0" y="20" width="510" height="120" border="no" />
+                <frame x="0" y="24" width="300" height="48" border="no" />
                 <!-- <bgimage resource="Scaling Field Background" /> -->
                 <attachpoints>
                     <attach point="ATTACH_RIGHT" />
@@ -241,11 +259,14 @@
 		<subscriptions overwrite = "false">
 		    <subscribe data="subAuctionsText" />
 		</subscriptions>
-		<pawsScrollBar width="20"  maxValue="1.0" />
+                <pawsScrollBar width="15" maxValue="1.0">
+		    <up   width="15" height="15"/>
+		    <down width="15" height="15"/>
+		</pawsScrollBar>
             </widget>
 
             <widget name="ChannelsText" factory="pawsMessageTextBox" visible="no" id="1108">
-                <frame x="0" y="20" width="510" height="120" border="no" />
+                <frame x="0" y="24" width="300" height="48" border="no" />
                 <!-- <bgimage resource="Scaling Field Background" /> -->
                 <attachpoints>
                     <attach point="ATTACH_RIGHT" />
@@ -256,11 +277,14 @@
 		<subscriptions overwrite = "false">
                     <subscribe data="subChannelsText"/>
 		</subscriptions>
-		<pawsScrollBar width="20"  maxValue="1.0" />
+                <pawsScrollBar width="15" maxValue="1.0">
+		    <up   width="15" height="15"/>
+		    <down width="15" height="15"/>
+		</pawsScrollBar>
             </widget>
 
             <widget name="HelpText" factory="pawsMessageTextBox" visible="no" id="1107">
-                <frame x="0" y="20" width="510" height="120" border="no" />
+                <frame x="0" y="24" width="300" height="48" border="no" />
                 <!-- <bgimage resource="Scaling Field Background" /> -->
                 <attachpoints>
                     <attach point="ATTACH_RIGHT" />
@@ -271,7 +295,10 @@
 		<subscriptions overwrite = "false">
 		    <subscribe data="subHelpText" />
 		</subscriptions>
-		<pawsScrollBar width="20" maxValue="1.0" />
+                <pawsScrollBar width="15" maxValue="1.0">
+		    <up   width="15" height="15"/>
+		    <down width="15" height="15"/>
+		</pawsScrollBar>
             </widget>
         </widget>
 
