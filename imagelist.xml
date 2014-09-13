@@ -617,7 +617,7 @@
 	<texturerect x="160" y="192" width="128" height="16" /> 
     </image>
   
-    <frame resource="Scaling Widget Background" file="/paws/real_skin/components02.png">
+    <frame resource="Scaling Widget Background" file="/paws/real_skin/components01.png">
 	<top_left     tx="163"  ty="99"  tw="4"   th="4"/>
 	<top          tx="168"  ty="99"  tw="114" th="4"  tile="true" />
 	<top_right    tx="282"  ty="99"  tw="4"   th="4"/>
