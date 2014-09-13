@@ -25,6 +25,7 @@
         </pawsButton>
 
         <widget name="ItemDescription" factory="pawsMultiLineTextBox" >
+	    <bgimage resource="Scaling Field Background" />
             <frame x="40" y="27" width="180" height="70" border="no"/>
         </widget>
 
