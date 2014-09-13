@@ -762,7 +762,9 @@
     <image file="/paws/real_skin/icons.png" resource="HotBarButton">
 	<texturerect x="896" y="320" width="64" height="64" /> 
     </image>
-  
+    <image file="/paws/real_skin/icons.png" resource="AttackButton">
+	<texturerect x="960" y="320" width="64" height="64" />
+    </image>
   
   
     <image file="/paws/real_skin/icons.png" resource="QuitButton_over">
@@ -810,7 +812,10 @@
     <image file="/paws/real_skin/icons.png" resource="HotBarButton_over">
 	<texturerect x="896" y="256" width="64" height="64" /> 
     </image>
-  
+    <image file="/paws/real_skin/icons.png" resource="AttackButton_over">
+	<texturerect x="960" y="256" width="64" height="64" /> 
+    </image>
+ 
   
   
     <image file="/paws/real_skin/icons.png" resource="QuitButton_active">
@@ -853,10 +858,13 @@
 	<texturerect x="768" y="384" width="64" height="64" /> 
     </image>
     <image file="/paws/real_skin/icons.png" resource="OptionsButton_active">
-	<texturerect x="832" y="256" width="64" height="64" /> 
+	<texturerect x="832" y="384" width="64" height="64" /> 
     </image>
     <image file="/paws/real_skin/icons.png" resource="HotBarButton_active">
-	<texturerect x="896" y="256" width="64" height="64" /> 
+	<texturerect x="896" y="384" width="64" height="64" /> 
+    </image>
+    <image file="/paws/real_skin/icons.png" resource="AttackButton_active">
+	<texturerect x="960" y="384" width="64" height="64" /> 
     </image>
   
 </image_list>
