@@ -587,17 +587,17 @@
   
   
     <!-- Text Area -->
-  
+
     <frame resource="Scaling Field Background" file="/paws/real_skin/components01.png">
-	<top_left     tx="169"  ty="105"  tw="1" th="1"/>
-	<top          tx="170"  ty="105"  tw="108" th="1" tile="true" />
-	<top_right    tx="278" ty="105"  tw="1" th="1"/>
-	<left         tx="169"  ty="106"  tw="1" th="76" tile="true" />
-	<middle       tx="170"  ty="106" tw="108" th="76" tile="true" />
-	<right        tx="278" ty="106"  tw="1" th="76" tile="true" />
-	<bottom_left  tx="169"  ty="182"  tw="1" th="1"/>
-	<bottom       tx="170"  ty="182"  tw="108" th="1" tile="true" />
-	<bottom_right tx="278" ty="182"  tw="1" th="1"/>
+	<top_left     tx="163"  ty="145"  tw="4"   th="4"/>
+	<top          tx="168"  ty="145"  tw="114" th="4"  tile="true" />
+	<top_right    tx="282"  ty="145"  tw="4"   th="4"/>
+	<left         tx="163"  ty="150" tw="4"   th="33" tile="true" />
+	<middle       tx="168"  ty="150" tw="114" th="33" tile="true" />
+	<right        tx="282"  ty="150" tw="4"   th="33" tile="true" />
+	<bottom_left  tx="163"  ty="183" tw="4"   th="4"/>
+	<bottom       tx="168"  ty="183" tw="114" th="4"  tile="true" />
+	<bottom_right tx="282"  ty="183" tw="4"   th="4"/>
     </frame>
   
     <!--
@@ -617,16 +617,16 @@
 	<texturerect x="160" y="192" width="128" height="16" /> 
     </image>
   
-    <frame resource="Scaling Widget Background" file="/paws/real_skin/components01.png">
-	<top_left     tx="160"  ty="96"  tw="10" th="10"/>
-	<top          tx="170"  ty="96"  tw="108" th="10" tile="true" />
-	<top_right    tx="278" ty="96"  tw="10" th="10"/>
-	<left         tx="160"  ty="106"  tw="10" th="76" tile="true" />
-	<middle       tx="170"  ty="106" tw="108" th="76" tile="true" />
-	<right        tx="278" ty="106"  tw="10" th="76" tile="true" />
-	<bottom_left  tx="160"  ty="182"  tw="10" th="10"/>
-	<bottom       tx="170"  ty="182"  tw="108" th="10" tile="true" />
-	<bottom_right tx="278" ty="182"  tw="10" th="10"/>
+    <frame resource="Scaling Widget Background" file="/paws/real_skin/components02.png">
+	<top_left     tx="163"  ty="99"  tw="4"   th="4"/>
+	<top          tx="168"  ty="99"  tw="114" th="4"  tile="true" />
+	<top_right    tx="282"  ty="99"  tw="4"   th="4"/>
+	<left         tx="163"  ty="104" tw="4"   th="33" tile="true" />
+	<middle       tx="168"  ty="104" tw="114" th="33" tile="true" />
+	<right        tx="282"  ty="104" tw="4"   th="33" tile="true" />
+	<bottom_left  tx="163"  ty="137" tw="4"   th="4"/>
+	<bottom       tx="168"  ty="137" tw="114" th="4"  tile="true" />
+	<bottom_right tx="282"  ty="137" tw="4"   th="4"/>
     </frame>
   
   
