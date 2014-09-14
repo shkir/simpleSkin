@@ -4,50 +4,50 @@
         <title resource="Scaling Title Bar" text="Guild" align="left" close_button="yes"/>
 
         <!--
-        <childborders>
-                <colour r="0" g="0" b="0" />
-                <colour r="0" g="0" b="255" />
-                <colour r="32" g="32" b="32" />
-                <colour r="148" g="138" b="255" />
-                <colour r="64" g="64" b="64" />
-        </childborders>
+            <childborders>
+            <colour r="0" g="0" b="0" />
+            <colour r="0" g="0" b="255" />
+            <colour r="32" g="32" b="32" />
+            <colour r="148" g="138" b="255" />
+            <colour r="64" g="64" b="64" />
+            </childborders>
         -->
 
 
 
         <widget name="Settings_Tab" factory="pawsButton" id="203" toggle="yes" shadows="yes" style="Standard Tab" >
             <frame x="0" y="5" width="80" height="25" />
-        <attachpoints>
-            <attach point="PROPORTIONAL_RIGHT" />
-            <attach point="PROPORTIONAL_LEFT" />
-        </attachpoints>
+            <attachpoints>
+		<attach point="PROPORTIONAL_RIGHT" />
+		<attach point="PROPORTIONAL_LEFT" />
+            </attachpoints>
             <label text="Settings" />
         </widget>
 
         <widget name="Members_Tab" factory="pawsButton" id="201" toggle="yes" shadows="yes" style="Standard Tab" >
             <frame x="85" y="5" width="80" height="25" />
-        <attachpoints>
-            <attach point="PROPORTIONAL_RIGHT" />
-            <attach point="PROPORTIONAL_LEFT" />
-        </attachpoints>
+            <attachpoints>
+		<attach point="PROPORTIONAL_RIGHT" />
+		<attach point="PROPORTIONAL_LEFT" />
+            </attachpoints>
             <label text="Members" />
         </widget>
 
         <widget name="Permissions_Tab" factory="pawsButton" id="200" toggle="yes" shadows="yes" style="Standard Tab" >
             <frame x="170" y="5" width="80" height="25" />
-        <attachpoints>
-            <attach point="PROPORTIONAL_RIGHT" />
-            <attach point="PROPORTIONAL_LEFT" />
-        </attachpoints>
+            <attachpoints>
+		<attach point="PROPORTIONAL_RIGHT" />
+		<attach point="PROPORTIONAL_LEFT" />
+            </attachpoints>
             <label text="Permissions" />
         </widget>
 
         <widget name="Alliances_Tab" factory="pawsButton" id="202" toggle="yes" shadows="yes" style="Standard Tab" >
             <frame x="255" y="5" width="80" height="25" />
-        <attachpoints>
-            <attach point="PROPORTIONAL_RIGHT" />
-            <attach point="PROPORTIONAL_LEFT" />
-        </attachpoints>
+            <attachpoints>
+		<attach point="PROPORTIONAL_RIGHT" />
+		<attach point="PROPORTIONAL_LEFT" />
+            </attachpoints>
             <label text="Alliance" />
         </widget>
 
@@ -134,67 +134,67 @@
                 <columns height="20" headings="no" xmlbinding="l" >
 
                     <column width="90" xmlbinding="title" >
-                         <widget name="Name" factory="pawsButton"></widget>
+                        <widget name="Name" factory="pawsButton"></widget>
                     </column>
 
                     <column width="15" >
-                         <widget name="ThisIsBlankSpace" factory="pawsTextBox"></widget>
+                        <widget name="ThisIsBlankSpace" factory="pawsTextBox"></widget>
                     </column>
 
                     <column width="13" xmlbinding="level" >
-                         <widget name="Level" factory="pawsTextBox"></widget>
+                        <widget name="Level" factory="pawsTextBox"></widget>
                     </column>
 
                     <column width="23" xmlbinding="view_chat" >
-                         <widget name="View Chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="View Chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="chat" >
-                         <widget name="Chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="Chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="invite" >
-                         <widget name="Invite" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="Invite" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="remove" >
-                         <widget name="Remove" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="Remove" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="promote" >
-                         <widget name="Promote" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="Promote" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="edit_level" >
-                         <widget name="Edit level" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="Edit level" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="edit_points" >
-                         <widget name="Edit points" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="Edit points" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="edit_guild" >
-                         <widget name="Edit guild" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="Edit guild" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="edit_public" >
-                         <widget name="Edit public" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="Edit public" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="edit_private" >
-                         <widget name="Edit private" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="Edit private" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="alliance_view_chat" >
-                         <widget name="View alliance chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="View alliance chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="alliance_chat" >
-                         <widget name="Alliance chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="Alliance chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                     <column width="23" xmlbinding="guild_bank" >
-                         <widget name="Guild bank" factory="pawsCheckBox"><text string="" position="right"/></widget>
+                        <widget name="Guild bank" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
                 </columns>
@@ -245,27 +245,27 @@
                 <columns height="20" headings="yes" xmlbinding="m" sortBy="0" sortOrder="asc">
 
                     <column width="95" xmlbinding="name" >
-                         <widget name="Name" factory="pawsTextBox"></widget>
+                        <widget name="Name" factory="pawsTextBox"></widget>
                     </column>
 
                     <column width="120" xmlbinding="level" >
-                         <widget name="Level" factory="pawsTextBox"> </widget>
+                        <widget name="Level" factory="pawsTextBox"> </widget>
                     </column>
 
                     <column width="50" xmlbinding="online" >
-                         <widget name="Online" factory="pawsTextBox"> <text horizAdjust="CENTRE" /></widget>
+                        <widget name="Online" factory="pawsTextBox"> <text horizAdjust="CENTRE" /></widget>
                     </column>
 
                     <column width="95" xmlbinding="sector" >
-                         <widget name="Sector" factory="pawsTextBox"> <text horizAdjust="CENTRE" /></widget>
+                        <widget name="Sector" factory="pawsTextBox"> <text horizAdjust="CENTRE" /></widget>
                     </column>
 
                     <column width="110" xmlbinding="lastonline" >
-                         <widget name="Last online" factory="pawsTextBox"> <text horizAdjust="CENTRE" /></widget>
+                        <widget name="Last online" factory="pawsTextBox"> <text horizAdjust="CENTRE" /></widget>
                     </column>
 
                     <column width="50" xmlbinding="points" >
-                         <widget name="Points" factory="pawsTextBox"> <text horizAdjust="CENTRE" /></widget>
+                        <widget name="Points" factory="pawsTextBox"> <text horizAdjust="CENTRE" /></widget>
                     </column>
 
                 </columns>
@@ -327,7 +327,7 @@
                 <frame x="70" y="0" width="200" height="30"/>
             </widget>
 
-           <widget name="Invite" factory="pawsButton" id="502" style="Standard Button">
+            <widget name="Invite" factory="pawsButton" id="502" style="Standard Button">
                 <frame x="400" y="0" width="70" height="20" />
                 <label text="Invite" />
             </widget>
@@ -349,19 +349,19 @@
                 <columns height="20" sortBy="0" sortOrder="asc" headings="yes">
 
                     <column width="180" xmlbinding="name" >
-                         <widget name="Name" factory="pawsTextBox"></widget>
+                        <widget name="Name" factory="pawsTextBox"></widget>
                     </column>
 
                     <column width="60" xmlbinding="online" >
-                         <widget name="Status" factory="pawsTextBox"></widget>
+                        <widget name="Status" factory="pawsTextBox"></widget>
                     </column>
 
                     <column width="120" xmlbinding="leader" >
-                         <widget name="Leader" factory="pawsTextBox"></widget>
+                        <widget name="Leader" factory="pawsTextBox"></widget>
                     </column>
 
                     <column width="60" xmlbinding="online" >
-                         <widget name="Online" factory="pawsTextBox"></widget>
+                        <widget name="Online" factory="pawsTextBox"></widget>
                     </column>
 
                 </columns>
@@ -375,7 +375,7 @@
 
             <widget name="Remove" factory="pawsButton" id="500" style="Standard Button">
                 <frame x="5" y="325" width="85" height="20" />
-               <label text="Remove" />
+		<label text="Remove" />
             </widget>
 
             <widget name="MakeLeader" factory="pawsButton" id="501" style="Standard Button">
@@ -398,8 +398,8 @@
 
 
             <widget name="label" factory="pawsTextBox">
-            <frame x="5" y="0" width="300" height="30" border="no"/>
-            <text string="Guild message of the day (A short message):" />
+		<frame x="5" y="0" width="300" height="30" border="no"/>
+		<text string="Guild message of the day (A short message):" />
             </widget>
 
 
