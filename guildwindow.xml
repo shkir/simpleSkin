@@ -303,7 +303,7 @@
             </widget>
 
             <widget name="EditMaxGuildPoints" factory="pawsButton" id="311" style="Standard Button">
-                <frame x="432" y="325" width="83" height="20" />
+                <frame x="435" y="325" width="83" height="20" />
                 <label text="Edit Max GP" />
             </widget>
 
