@@ -2,7 +2,7 @@
 
 <widget name="InventoryWindow" factory="pawsInventoryWindow" visible="no" savepositions="yes" movable="yes" resizable="no" configurable="yes" style="New Standard GUI">
 
-    <frame x="200" y="100" width="300" height="395" border="yes" />
+    <frame x="200" y="100" width="296" height="398" border="yes" />
     <title resource="Scaling Title Bar" text="Inventory" align="left" close_button="yes"/>
 
     <widget name="View" factory="pawsButton" id="1005" tooltip="View Item">
