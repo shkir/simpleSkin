@@ -10,7 +10,7 @@
 
         <!-- Vitals (HP, Mana, Stamina) -->
         <widget name="Vitals" factory="pawsWidget">
-        <frame x="5" y="5" width="290" height="65" />
+            <frame x="5" y="5" width="290" height="65" />
 
             <widget name="HPLbl" factory="pawsTextBox" style="Header Font">
                 <frame x="0" y="0" width="80" height="15" border="no" />
@@ -57,32 +57,32 @@
             <!-- Vitals: bars -->
             <widget name="HPBar" factory="pawsProgressBar">
                 <frame x="150" y="0" width="140" height="15" border="no" />
-                    <color r="150" g="20" b="20" />
-                    <fadecolor r="200" g="50" b="50" />
+                <color r="150" g="20" b="20" />
+                <fadecolor r="200" g="50" b="50" />
                 <subscriptions>
                     <subscribe data="fVitalValue0:Self" />
                 </subscriptions>
             </widget>
             <widget name="ManaBar" factory="pawsProgressBar">
                 <frame x="150" y="35" width="140" height="15" border="no" />
-                    <color r="20" g="20" b="160" />
-                    <fadecolor r="50" g="50" b="200" />
+                <color r="20" g="20" b="160" />
+                <fadecolor r="50" g="50" b="200" />
                 <subscriptions>
                     <subscribe data="fVitalValue1:Self" />
                 </subscriptions>
             </widget>
             <widget name="PysStaminaBar" factory="pawsProgressBar">
                 <frame x="150" y="16" width="130" height="8" border="no" />
-                    <color r="100" g="50" b="50" />
-                    <fadecolor r="150" g="75" b="75" />
+                <color r="100" g="50" b="50" />
+                <fadecolor r="150" g="75" b="75" />
                 <subscriptions>
                     <subscribe data="fVitalValue2:Self" />
                 </subscriptions>
             </widget>
             <widget name="MenStaminaBar" factory="pawsProgressBar">
                 <frame x="150" y="51" width="130" height="8" border="no" />
-                    <color r="50" g="50"  b="150" />
-                    <fadecolor r="75" g="75" b="200" />
+                <color r="50" g="50"  b="150" />
+                <fadecolor r="75" g="75" b="200" />
                 <subscriptions>
                     <subscribe data="fVitalValue3:Self" />
                 </subscriptions>
@@ -90,61 +90,61 @@
 
         </widget>
 
-            <widget name="Filter" factory="pawsButton" id="101" tooltip="Filter" >
-                <frame x="270" y="370" width="32" height="32" />
-                <bgimage resource="FilterSkill" />
+        <widget name="Filter" factory="pawsButton" id="101" tooltip="Filter" >
+            <frame x="270" y="370" width="32" height="32" />
+            <bgimage resource="FilterSkill" />
+        </widget>
+
+        <widget name="ExperienceBar" factory="pawsProgressBar" tooltip="Experience">
+            <frame x="5" y="365" height="5" width="290" border="no" />
+            <color     r="150" g="150" b="50" />
+            <fadecolor r="250" g="250" b="100" />
+            <subscriptions>
+                <subscribe data="fExpPts:Self" />
+            </subscriptions>
+        </widget>
+
+        <widget name="SkillPurchase" factory="pawsWidget">
+            <frame x="0" y="370" height="40" width="265" />
+            <!-- Progression Points -->
+            <widget name="PPLabel" factory="pawsTextBox" style="Header Font">
+                <frame x="5" y="0" width="50" height="20" border="no" />
+                <text string="PPs:" />
             </widget>
 
-            <widget name="ExperienceBar" factory="pawsProgressBar" tooltip="Experience">
-                <frame x="5" y="365" height="5" width="290" border="no" />
-                <color     r="150" g="150" b="50" />
-                <fadecolor r="250" g="250" b="100" />
+            <widget name="PPTotal" factory="pawsTextBox">
+                <frame x="10" y="15" width="80" height="20" border="no" />
                 <subscriptions>
-                    <subscribe data="fExpPts:Self" />
+                    <subscribe data="fProgrPts:Self" />
                 </subscriptions>
             </widget>
 
-            <widget name="SkillPurchase" factory="pawsWidget">
-            <frame x="0" y="370" height="40" width="265" />
-                <!-- Progression Points -->
-                <widget name="PPLabel" factory="pawsTextBox" style="Header Font">
-                    <frame x="5" y="0" width="50" height="20" border="no" />
-                    <text string="PPs:" />
-                </widget>
 
-                <widget name="PPTotal" factory="pawsTextBox">
-                    <frame x="10" y="15" width="80" height="20" border="no" />
-                    <subscriptions>
-                        <subscribe data="fProgrPts:Self" />
-                    </subscriptions>
-                </widget>
-
-
-                <!-- Trias -->
-                <widget name="TotalTriasLabel" factory="pawsTextBox" style="Header Font">
-                    <frame x="100" y="0" width="50" height="20" border="no" />
-                    <text string="Tria:" />
-                </widget>
-                <widget name="TotalTrias" factory="pawsTextBox">
-                    <frame x="105" y="15" width="140" height="20" border="no" />
-                    <text string="0" />
-                    <subscriptions>
-                        <subscribe data="sigInvMoneyTotal" />
-                    </subscriptions>
-                </widget>
-
-                <widget name="BuySkill" factory="pawsButton" id="100" tooltip="Buy Skill" >
-                    <frame x="205" y="0" width="32" height="32" />
-                    <bgimage resource="BuySkill" />
-                </widget>
-                <widget name="BuySkillLevel" factory="pawsButton" id="103" tooltip="Buy Skill Rank" >
-                    <frame x="235" y="0" width="32" height="32" />
-                    <bgimage resource="BuySkill" />
-                </widget>
-
-
-
+            <!-- Trias -->
+            <widget name="TotalTriasLabel" factory="pawsTextBox" style="Header Font">
+                <frame x="100" y="0" width="50" height="20" border="no" />
+                <text string="Tria:" />
             </widget>
+            <widget name="TotalTrias" factory="pawsTextBox">
+                <frame x="105" y="15" width="140" height="20" border="no" />
+                <text string="0" />
+                <subscriptions>
+                    <subscribe data="sigInvMoneyTotal" />
+                </subscriptions>
+            </widget>
+
+            <widget name="BuySkill" factory="pawsButton" id="100" tooltip="Buy Skill" >
+                <frame x="205" y="0" width="32" height="32" />
+                <bgimage resource="BuySkill" />
+            </widget>
+            <widget name="BuySkillLevel" factory="pawsButton" id="103" tooltip="Buy Skill Rank" >
+                <frame x="235" y="0" width="32" height="32" />
+                <bgimage resource="BuySkill" />
+            </widget>
+
+
+
+        </widget>
 
 
 

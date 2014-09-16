@@ -25,15 +25,15 @@
                 <attach point="ATTACH_RIGHT" />
             </attachpoints>
 
-	    <widget name="ButtonsBackground" factory="pawsWidget">
+            <widget name="ButtonsBackground" factory="pawsWidget">
                 <frame x="0" y="0" width="300" height="80" border="no" />
-	    	<bgimage resource="Scaling Field Background" />
+                <bgimage resource="Scaling Field Background" />
                 <attachpoints>
                     <attach point="ATTACH_TOP" />
                     <attach point="ATTACH_BOTTOM" />
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_RIGHT" />
-	    	</attachpoints>
+                </attachpoints>
             </widget>
 
             <widget name="Main Button" factory="pawsButton" toggle="yes" id="1000" tooltip="Main" shadows="yes" style="Standard Tab">
@@ -137,13 +137,13 @@
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
-		<subscriptions overwrite = "false">
-		    <subscribe data="subMainText" />
-		</subscriptions>
+                <subscriptions overwrite = "false">
+                    <subscribe data="subMainText" />
+                </subscriptions>
                 <pawsScrollBar width="15" maxValue="1.0">
-		    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
-		    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
-		</pawsScrollBar>
+                    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
+                    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
+                </pawsScrollBar>
             </widget>
             <widget name="SystemText" factory="pawsMessageTextBox" visible="no" id="1101">
                 <frame x="0" y="24" width="300" height="48" border="no" />
@@ -154,13 +154,13 @@
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
-		<subscriptions overwrite = "false">
-		    <subscribe data="subSystemText" />
-		</subscriptions>
+                <subscriptions overwrite = "false">
+                    <subscribe data="subSystemText" />
+                </subscriptions>
                 <pawsScrollBar width="15" maxValue="1.0">
-		    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
-		    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
-		</pawsScrollBar>
+                    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
+                    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
+                </pawsScrollBar>
             </widget>
             <widget name="NpcText" factory="pawsMessageTextBox" visible="no" id="1102">
                 <frame x="0" y="24" width="300" height="48" border="no" />
@@ -171,13 +171,13 @@
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
-		<subscriptions overwrite = "false">
-		    <subscribe data="subNPCText" />
-		</subscriptions>
+                <subscriptions overwrite = "false">
+                    <subscribe data="subNPCText" />
+                </subscriptions>
                 <pawsScrollBar width="15" maxValue="1.0">
-		    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
-		    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
-		</pawsScrollBar>
+                    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
+                    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
+                </pawsScrollBar>
             </widget>
             <widget name="TellText" factory="pawsMessageTextBox" visible="no" id="1103">
                 <frame x="0" y="24" width="300" height="48" border="no" />
@@ -188,13 +188,13 @@
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
-		<subscriptions overwrite = "false">
-		    <subscribe data="subTellText" />
-		</subscriptions>
+                <subscriptions overwrite = "false">
+                    <subscribe data="subTellText" />
+                </subscriptions>
                 <pawsScrollBar width="15" maxValue="1.0">
-		    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
-		    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
-		</pawsScrollBar>
+                    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
+                    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
+                </pawsScrollBar>
             </widget>
             <widget name="GuildText" factory="pawsMessageTextBox" visible="no" id="1104">
                 <frame x="0" y="24" width="300" height="48" border="no" />
@@ -205,13 +205,13 @@
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
-		<subscriptions overwrite = "false">
-		    <subscribe data="subGuildText" />
-		</subscriptions>
+                <subscriptions overwrite = "false">
+                    <subscribe data="subGuildText" />
+                </subscriptions>
                 <pawsScrollBar width="15" maxValue="1.0">
-		    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
-		    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
-		</pawsScrollBar>
+                    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
+                    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
+                </pawsScrollBar>
             </widget>
             <widget name="AllianceText" factory="pawsMessageTextBox" visible="no" id="1109">
                 <frame x="0" y="24" width="300" height="48" border="no" />
@@ -222,13 +222,13 @@
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
-		<subscriptions overwrite = "false">
-		    <subscribe data="subAllianceText" />
-		</subscriptions>
+                <subscriptions overwrite = "false">
+                    <subscribe data="subAllianceText" />
+                </subscriptions>
                 <pawsScrollBar width="15" maxValue="1.0">
-		    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
-		    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
-		</pawsScrollBar>
+                    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
+                    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
+                </pawsScrollBar>
             </widget>
             <widget name="GroupText" factory="pawsMessageTextBox" visible="no" id="1105">
                 <frame x="0" y="24" width="300" height="48" border="no" />
@@ -239,13 +239,13 @@
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
-		<subscriptions overwrite = "false">
-		    <subscribe data="subGroupText" />
-		</subscriptions>
+                <subscriptions overwrite = "false">
+                    <subscribe data="subGroupText" />
+                </subscriptions>
                 <pawsScrollBar width="15" maxValue="1.0">
-		    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
-		    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
-		</pawsScrollBar>
+                    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
+                    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
+                </pawsScrollBar>
             </widget>
             <widget name="AuctionText" factory="pawsMessageTextBox" visible="no" id="1106">
                 <frame x="0" y="24" width="300" height="48" border="no" />
@@ -256,13 +256,13 @@
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
-		<subscriptions overwrite = "false">
-		    <subscribe data="subAuctionsText" />
-		</subscriptions>
+                <subscriptions overwrite = "false">
+                    <subscribe data="subAuctionsText" />
+                </subscriptions>
                 <pawsScrollBar width="15" maxValue="1.0">
-		    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
-		    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
-		</pawsScrollBar>
+                    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
+                    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
+                </pawsScrollBar>
             </widget>
 
             <widget name="ChannelsText" factory="pawsMessageTextBox" visible="no" id="1108">
@@ -274,13 +274,13 @@
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
-		<subscriptions overwrite = "false">
+                <subscriptions overwrite = "false">
                     <subscribe data="subChannelsText"/>
-		</subscriptions>
+                </subscriptions>
                 <pawsScrollBar width="15" maxValue="1.0">
-		    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
-		    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
-		</pawsScrollBar>
+                    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
+                    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
+                </pawsScrollBar>
             </widget>
 
             <widget name="HelpText" factory="pawsMessageTextBox" visible="no" id="1107">
@@ -292,13 +292,13 @@
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
-		<subscriptions overwrite = "false">
-		    <subscribe data="subHelpText" />
-		</subscriptions>
+                <subscriptions overwrite = "false">
+                    <subscribe data="subHelpText" />
+                </subscriptions>
                 <pawsScrollBar width="15" maxValue="1.0">
-		    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
-		    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
-		</pawsScrollBar>
+                    <up   grey="Up Arrow Disabled"   unpressed="Up Arrow"   pressed="Up Arrow Highlight"   width="15" height="15"/>
+                    <down grey="Down Arrow Disabled" unpressed="Down Arrow" pressed="Down Arrow Highlight" width="15" height="15"/>
+                </pawsScrollBar>
             </widget>
         </widget>
 

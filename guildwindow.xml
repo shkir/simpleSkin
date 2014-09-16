@@ -18,8 +18,8 @@
         <widget name="Settings_Tab" factory="pawsButton" id="203" toggle="yes" shadows="yes" style="Standard Tab" >
             <frame x="0" y="5" width="80" height="25" />
             <attachpoints>
-		<attach point="PROPORTIONAL_RIGHT" />
-		<attach point="PROPORTIONAL_LEFT" />
+                <attach point="PROPORTIONAL_RIGHT" />
+                <attach point="PROPORTIONAL_LEFT" />
             </attachpoints>
             <label text="Settings" />
         </widget>
@@ -27,8 +27,8 @@
         <widget name="Members_Tab" factory="pawsButton" id="201" toggle="yes" shadows="yes" style="Standard Tab" >
             <frame x="85" y="5" width="80" height="25" />
             <attachpoints>
-		<attach point="PROPORTIONAL_RIGHT" />
-		<attach point="PROPORTIONAL_LEFT" />
+                <attach point="PROPORTIONAL_RIGHT" />
+                <attach point="PROPORTIONAL_LEFT" />
             </attachpoints>
             <label text="Members" />
         </widget>
@@ -36,8 +36,8 @@
         <widget name="Permissions_Tab" factory="pawsButton" id="200" toggle="yes" shadows="yes" style="Standard Tab" >
             <frame x="170" y="5" width="80" height="25" />
             <attachpoints>
-		<attach point="PROPORTIONAL_RIGHT" />
-		<attach point="PROPORTIONAL_LEFT" />
+                <attach point="PROPORTIONAL_RIGHT" />
+                <attach point="PROPORTIONAL_LEFT" />
             </attachpoints>
             <label text="Permissions" />
         </widget>
@@ -45,8 +45,8 @@
         <widget name="Alliances_Tab" factory="pawsButton" id="202" toggle="yes" shadows="yes" style="Standard Tab" >
             <frame x="255" y="5" width="80" height="25" />
             <attachpoints>
-		<attach point="PROPORTIONAL_RIGHT" />
-		<attach point="PROPORTIONAL_LEFT" />
+                <attach point="PROPORTIONAL_RIGHT" />
+                <attach point="PROPORTIONAL_LEFT" />
             </attachpoints>
             <label text="Alliance" />
         </widget>
@@ -375,7 +375,7 @@
 
             <widget name="Remove" factory="pawsButton" id="500" style="Standard Button">
                 <frame x="5" y="325" width="85" height="20" />
-		<label text="Remove" />
+                <label text="Remove" />
             </widget>
 
             <widget name="MakeLeader" factory="pawsButton" id="501" style="Standard Button">
@@ -398,8 +398,8 @@
 
 
             <widget name="label" factory="pawsTextBox">
-		<frame x="5" y="0" width="300" height="30" border="no"/>
-		<text string="Guild message of the day (A short message):" />
+                <frame x="5" y="0" width="300" height="30" border="no"/>
+                <text string="Guild message of the day (A short message):" />
             </widget>
 
 

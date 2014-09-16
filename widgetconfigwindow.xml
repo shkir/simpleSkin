@@ -2,124 +2,124 @@
 
     <widget name="Window Settings" factory="widgetconfigwindow" visible="yes" savepositions="yes" movable="yes" resizable="no" style="New Standard GUI">
 
-	<frame x="200" y="200" width="300" height="135" border="yes" />
-	<title resource="Scaling Title Bar" text="Window Settings" align="top" close_button="yes" />
-	<bgimage resource="Scaling Window Background" alpha="50" />
+        <frame x="200" y="200" width="300" height="135" border="yes" />
+        <title resource="Scaling Title Bar" text="Window Settings" align="top" close_button="yes" />
+        <bgimage resource="Scaling Window Background" alpha="50" />
 
-	<!-- Min Alpha scrollbar -->
-	<widget name="MinAlphaScroll" factory="pawsScrollBar" direction="horizontal" style="Standard Scrollbar Horizontal">
+        <!-- Min Alpha scrollbar -->
+        <widget name="MinAlphaScroll" factory="pawsScrollBar" direction="horizontal" style="Standard Scrollbar Horizontal">
             <frame x="140" y="26" width="100" height="20" border="no" />
-	</widget>
+        </widget>
 
-	<!-- Min Alpha progressbar-->
-	<widget name="MinAlphaProgressBar" factory="pawsProgressBar" style="Simple Progressbar">
+        <!-- Min Alpha progressbar-->
+        <widget name="MinAlphaProgressBar" factory="pawsProgressBar" style="Simple Progressbar">
             <frame x="155" y="31" width="65" height="9" border="no" />
             <fadecolor r="0" g="255" b="0" />
-	</widget>
+        </widget>
 
-	<!-- Min Alpha Current % -->
-	<widget name="MinAlphaCurrentPct" factory="pawsTextBox">
+        <!-- Min Alpha Current % -->
+        <widget name="MinAlphaCurrentPct" factory="pawsTextBox">
             <frame x="245" y="28" width="40" height="20" border="no"/>
             <text string="100%" />
-	</widget>
+        </widget>
 
-	<!-- Min Alpha -->
-	<widget name="MinAlphaText" factory="pawsTextBox">
+        <!-- Min Alpha -->
+        <widget name="MinAlphaText" factory="pawsTextBox">
             <frame x="10" y="28" width="140" height="20" border="no"/>
             <text string="Min. Transparency:" />
-	</widget>
+        </widget>
 
-	<!-- Max Alpha scrollbar -->
-	<widget name="MaxAlphaScroll" factory="pawsScrollBar" direction="horizontal" style="Standard Scrollbar Horizontal">
+        <!-- Max Alpha scrollbar -->
+        <widget name="MaxAlphaScroll" factory="pawsScrollBar" direction="horizontal" style="Standard Scrollbar Horizontal">
             <frame x="140" y="5" width="100" height="20" border="no" />
-	</widget>
+        </widget>
 
-	<!-- Max Alpha progressbar-->
-	<widget name="MaxAlphaProgressBar" factory="pawsProgressBar" style="Simple Progressbar">
+        <!-- Max Alpha progressbar-->
+        <widget name="MaxAlphaProgressBar" factory="pawsProgressBar" style="Simple Progressbar">
             <frame x="155" y="11" width="65" height="9" border="no"/>
             <color     r="0" g="0" b="50" />
             <fadecolor r="0" g="0" b="255" />
-	</widget>
+        </widget>
 
-	<!-- Max Alpha 100% -->
-	<widget name="MaxAlphaCurrentPct" factory="pawsTextBox">
+        <!-- Max Alpha 100% -->
+        <widget name="MaxAlphaCurrentPct" factory="pawsTextBox">
             <frame x="245" y="8" width="40" height="20" border="no"/>
             <text string="100%" />
-	</widget>
+        </widget>
 
-	<!-- Max Alpha -->
-	<widget name="MaxAlphaText" factory="pawsTextBox">
+        <!-- Max Alpha -->
+        <widget name="MaxAlphaText" factory="pawsTextBox">
             <frame x="10" y="6" width="140" height="20" border="no"/>
             <text string="Max. Transparency:" />
-	</widget>
+        </widget>
 
 
-	<!-- FadeSpeed scrollbar -->
-	<widget name="FadeSpeedScroll" factory="pawsScrollBar" direction="horizontal" style="Standard Scrollbar Horizontal">
+        <!-- FadeSpeed scrollbar -->
+        <widget name="FadeSpeedScroll" factory="pawsScrollBar" direction="horizontal" style="Standard Scrollbar Horizontal">
             <frame x="140" y="47" width="100" height="20" border="no" />
-	</widget>
+        </widget>
 
-	<!-- FadeSpeed progressbar-->
-	<widget name="FadeSpeedProgressBar" factory="pawsProgressBar" style="Simple Progressbar">
+        <!-- FadeSpeed progressbar-->
+        <widget name="FadeSpeedProgressBar" factory="pawsProgressBar" style="Simple Progressbar">
             <frame x="155" y="52" width="65" height="9" border="no" />
             <color     r="50" g="0" b="0" />
             <fadecolor r="255" g="0" b="0" />
-	</widget>
+        </widget>
 
-	<!-- FadeSpeed 100% -->
-	<widget name="FadeSpeedCurrentPct" factory="pawsTextBox">
+        <!-- FadeSpeed 100% -->
+        <widget name="FadeSpeedCurrentPct" factory="pawsTextBox">
             <frame x="245" y="50" width="40" height="20" border="no"/>
             <text string="100%" />
-	</widget>
+        </widget>
 
-	<!-- FadeSpeed-->
-	<widget name="FadeSpeedText" factory="pawsTextBox">
+        <!-- FadeSpeed-->
+        <widget name="FadeSpeedText" factory="pawsTextBox">
             <frame x="10" y="48" width="100" height="20" border="no"/>
             <text string="Fade Speed:" />
-	</widget>
+        </widget>
 
-	<!-- FadeText -->
-	<widget name="FadeText" factory="pawsTextBox">
+        <!-- FadeText -->
+        <widget name="FadeText" factory="pawsTextBox">
             <frame x="10" y="71" width="60" height="20" border="no"/>
             <text string="Fading:" />
-	</widget>
+        </widget>
 
-	<!-- Fade Checkbox -->
-	<widget name="FadeButton" factory="pawsCheckBox" visible="yes">
+        <!-- Fade Checkbox -->
+        <widget name="FadeButton" factory="pawsCheckBox" visible="yes">
             <frame x="125" y="67" width="100" height="20" border="no" />
             <text string="Enabled" />
-	</widget>
+        </widget>
 
-	<!-- Font Scale Text -->
-	<widget name="FontText" factory="pawsTextBox">
+        <!-- Font Scale Text -->
+        <widget name="FontText" factory="pawsTextBox">
             <frame x="10" y="89" width="80" height="20" border="no"/>
             <text string="Scale Font:" />
-	</widget>
+        </widget>
 
-	<!-- Font Scale Checkbox -->
-	<widget name="FontButton" factory="pawsCheckBox" visible="yes">
+        <!-- Font Scale Checkbox -->
+        <widget name="FontButton" factory="pawsCheckBox" visible="yes">
             <frame x="125" y="84" width="100" height="20" border="no" />
             <text string="Enabled" />
-	</widget>
+        </widget>
 
-	<!-- OK button -->
-	<widget name="OKButton" factory="pawsButton" toggle="no" shadows="yes" style="Standard Button">
+        <!-- OK button -->
+        <widget name="OKButton" factory="pawsButton" toggle="no" shadows="yes" style="Standard Button">
             <frame x="10" y="110" width="80" height="20" border="yes" />
             <label text="OK"/>
-	</widget>
+        </widget>
 
 
-	<!-- Cancel button -->
-	<widget name="CancelButton" factory="pawsButton" toggle="no" shadows="yes" style="Standard Button" >
+        <!-- Cancel button -->
+        <widget name="CancelButton" factory="pawsButton" toggle="no" shadows="yes" style="Standard Button" >
             <frame x="110" y="110" width="80" height="20" border="yes" />
             <label text="Cancel"/>
-	</widget>
+        </widget>
 
-	<!-- Apply to all button -->
-	<widget name="ApplyAllButton" factory="pawsButton" toggle="no" shadows="yes" style="Standard Button" >
+        <!-- Apply to all button -->
+        <widget name="ApplyAllButton" factory="pawsButton" toggle="no" shadows="yes" style="Standard Button" >
             <frame x="210" y="110" width="80" height="20" border="yes" />
             <label text="Apply to all"/>
-	</widget>
+        </widget>
     </widget>
 
 </widget_description>

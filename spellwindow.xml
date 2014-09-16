@@ -1,64 +1,64 @@
 <widget_description>
 
-<widget name="SpellBookWindow" factory="pawsSpellBookWindow" visible="no" savepositions="yes" movable="yes" resizable="no"
-     configurable="yes" style="New Standard GUI">
+    <widget name="SpellBookWindow" factory="pawsSpellBookWindow" visible="no" savepositions="yes" movable="yes" resizable="no"
+            configurable="yes" style="New Standard GUI">
 
-    <frame x="100" y="100" width="460" height="305" border="yes" />
-    <title resource="Scaling Title Bar" text="Spell Book" align="left" close_button="yes"/>
+        <frame x="100" y="100" width="460" height="305" border="yes" />
+        <title resource="Scaling Title Bar" text="Spell Book" align="left" close_button="yes"/>
 
-    <widget name="Description" factory="pawsMessageTextBox" style="Header Font">
-        <frame x="315" y="5" width="150" height="250" border="no" />
-    </widget>
-    <widget name="Cast" factory="pawsButton" id="101" tooltip="Cast">
-        <frame x="315" y="260" width="36" height="36" />
-        <bgimage resource="Cast Magic" />
-    </widget>
-    <widget name="SpellImage" factory="pawsSlot" >
-        <frame x="350" y="260" width="36" height="36" border="yes" />
-        <show_stack_amount>0</show_stack_amount>
-    </widget>
-    <widget name="ActiveMagic" factory="pawsButton" id="102" tooltip="Active Spells">
-        <frame x="385" y="260" width="36" height="36" />
-        <bgimage resource="Defensive Magic" />
-    </widget>
-    <widget name="Combine" factory="pawsButton" id="100" tooltip="Research Magic" >
-        <frame x="420" y="260" width="36" height="36" />
-        <bgimage resource="Glyph Magic" />
-    </widget>
+        <widget name="Description" factory="pawsMessageTextBox" style="Header Font">
+            <frame x="315" y="5" width="150" height="250" border="no" />
+        </widget>
+        <widget name="Cast" factory="pawsButton" id="101" tooltip="Cast">
+            <frame x="315" y="260" width="36" height="36" />
+            <bgimage resource="Cast Magic" />
+        </widget>
+        <widget name="SpellImage" factory="pawsSlot" >
+            <frame x="350" y="260" width="36" height="36" border="yes" />
+            <show_stack_amount>0</show_stack_amount>
+        </widget>
+        <widget name="ActiveMagic" factory="pawsButton" id="102" tooltip="Active Spells">
+            <frame x="385" y="260" width="36" height="36" />
+            <bgimage resource="Defensive Magic" />
+        </widget>
+        <widget name="Combine" factory="pawsButton" id="100" tooltip="Research Magic" >
+            <frame x="420" y="260" width="36" height="36" />
+            <bgimage resource="Glyph Magic" />
+        </widget>
 
-    <widget name="SpellList" factory="pawsListBox" sortBy="-1">
-        <frame x="5" y="10" width="300" height="285" margin="5" border="no" />
-        <columns height="20" headings="yes">
-            <column width="130" height="20" >
-                <widget name="Name" factory="pawsTextBox">
-                </widget>
-            </column>
-            <column width="20" sortable="false" >
-                <widget name="" factory="pawsWidget">
-                </widget>
-            </column>
-            <column width="20" sortable="false" >
-                <widget name="" factory="pawsWidget"></widget>
-            </column>
-            <column width="20" sortable="false" >
-                <widget name="" factory="pawsWidget"></widget>
-            </column>
-            <column width="20" sortable="false" >
-                <widget name="" factory="pawsWidget"></widget>
-            </column>
-            <column width="45" >
-                <widget name="Way" factory="pawsTextBox">
-                </widget>
-            </column>
-            <column width="45" >
-                <widget name="Realm" factory="pawsTextBox">
-                    <frame x="15" y="0" width="20" height="25"/>
-                </widget>
-            </column>
-        </columns>
+        <widget name="SpellList" factory="pawsListBox" sortBy="-1">
+            <frame x="5" y="10" width="300" height="285" margin="5" border="no" />
+            <columns height="20" headings="yes">
+                <column width="130" height="20" >
+                    <widget name="Name" factory="pawsTextBox">
+                    </widget>
+                </column>
+                <column width="20" sortable="false" >
+                    <widget name="" factory="pawsWidget">
+                    </widget>
+                </column>
+                <column width="20" sortable="false" >
+                    <widget name="" factory="pawsWidget"></widget>
+                </column>
+                <column width="20" sortable="false" >
+                    <widget name="" factory="pawsWidget"></widget>
+                </column>
+                <column width="20" sortable="false" >
+                    <widget name="" factory="pawsWidget"></widget>
+                </column>
+                <column width="45" >
+                    <widget name="Way" factory="pawsTextBox">
+                    </widget>
+                </column>
+                <column width="45" >
+                    <widget name="Realm" factory="pawsTextBox">
+                        <frame x="15" y="0" width="20" height="25"/>
+                    </widget>
+                </column>
+            </columns>
+        </widget>
+
+
     </widget>
-
-
-</widget>
 
 </widget_description>
