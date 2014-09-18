@@ -91,7 +91,7 @@
                 <frame x="40" y="40" width="108" height="140" border="no"/>
                 <!--<mask resource="invborder" />-->
                 <map file="podium" sector="podium" />
-                <distance value="3.0"/>
+                <distance value="1.5"/>
                 <cameramod x="-0.025" y="1.0" z="0.0"/>
                 <subscriptions>
                     <subscribe data="sigActorUpdate" />
