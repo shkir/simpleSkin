@@ -62,6 +62,17 @@
                 </attachpoints>
             </widget>           
             
+            <widget name="ignore" factory="pawsButton" toggle="yes" tooltip="Add players to ignore list" style="Scaling Button">
+                <frame x="50" y="30" width="45" height="16" />
+                <label text="Ignore" />
+                <eventMouseDown>IgnoreWindow:Show();</eventMouseDown>
+                <eventMouseUp>IgnoreWindow:Hide();</eventMouseUp>
+                <attachpoints>
+                    <attach point="ATTACH_RIGHT" />
+                    <attach point="PROPORTIONAL_LEFT" />
+                    <attach point="ATTACH_BOTTOM" />
+                </attachpoints>
+            </widget>            
             
             
             <attachpoints>
