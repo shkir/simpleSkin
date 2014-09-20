@@ -1,9 +1,9 @@
 <widget_description>
 
     <widget name="ContainerDescWindow" factory="pawsContainerDescWindow" visible="no" movable="yes" savepositions="yes" style="New Standard GUI" resizable="yes" keepaspect="no">
-        <frame x="100" y="100" width="205" height="405" border="yes"/>
-        <minframe width="205" height="263" />
-        <maxframe width="205" height="595" />
+        <frame x="100" y="100" width="205" height="420" border="yes"/>
+        <minframe width="205" height="278" />
+        <maxframe width="205" height="709" />
         <title resource="Scaling Title Bar" text="Container" align="left" close_button="yes"/>
 
         <widget name="ItemImage" factory="pawsWidget" visible="yes" >
@@ -26,36 +26,36 @@
 
         <widget name="ItemDescription" factory="pawsMultiLineTextBox" >
             <bgimage resource="Scaling Field Background" />
-            <frame x="40" y="27" width="180" height="70" border="no"/>
+            <frame x="40" y="27" width="180" height="84" border="no"/>
         </widget>
 
         <widget name="SmallInvButton" factory="pawsButton" tooltip="Open Inventory">
-            <frame x="0" y="27" width="36" height="36"/>
+            <frame x="0" y="41" width="36" height="36"/>
             <bgimage resource="InventoryBulk" alpha="0"/>
         </widget>
         <widget name="UseContainer" factory="pawsButton" id="300" tooltip="Use">
-            <frame x="0" y="65" width="36" height="36" />
+            <frame x="0" y="79" width="36" height="36" />
             <bgimage resource="ButtonPush" />
         </widget>
         <widget name="TakeStackAll" factory="pawsButton" tooltip = "Take and Stack All">
-            <frame x="0" y="103" width="36" height="36" />
+            <frame x="0" y="117" width="36" height="36" />
             <bgimage resource="ButtonPickup" />
         </widget>
         <widget name="TakeAll" factory="pawsButton" tooltip = "Take All">
-            <frame x="0" y="141" width="36" height="36" />
+            <frame x="0" y="155" width="36" height="36" />
             <bgimage resource="ButtonPickup" />
         </widget>
         <widget name="Combine" factory="pawsButton" id="13" tooltip="Combine items in container">
-            <frame x="0" y="179" width="36" height="36" />
+            <frame x="0" y="193" width="36" height="36" />
             <bgimage resource="ButtonCombine" />
         </widget>
         <widget name="Inventory" factory="pawsButton" id="12" tooltip="Transfer to inventory">
-            <frame x="0" y="215" width="36" height="36" />
+            <frame x="0" y="229" width="36" height="36" />
             <bgimage resource="ExchangeAccept" />
         </widget>
 
         <widget name="BulkList" factory="pawsListBox" selectable="0">
-            <frame x="40" y="110" width="160" height="288" border="no"/>
+            <frame x="40" y="120" width="160" height="288" border="no"/>
             <columns height="36" headings="no" >
                 <column width="36" >
                     <widget name="Bulk0" factory="pawsSlot">
