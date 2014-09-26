@@ -57,76 +57,76 @@
         <widget name="Permissions_Panel" factory="pawsWidget">
             <frame x="0" y="30" width="555" height="350" border="yes"/>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="131" y="10" width="25" height="140" />
-                <text string="View chat" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="131" y="0" width="25" height="30" />
+                <text string="A"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="154" y="10" width="25" height="140" />
-                <text string="Chat" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="154" y="0" width="25" height="30" />
+                <text string="B"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="179" y="10" width="25" height="140" />
-                <text string="Invite" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="179" y="0" width="25" height="30" />
+                <text string="C"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="199" y="10" width="25" height="140" />
-                <text string="Remove" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="199" y="0" width="25" height="30" />
+                <text string="D"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="223" y="10" width="25" height="140" />
-                <text string="Promote" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="223" y="0" width="25" height="30" />
+                <text string="E"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="248" y="10" width="25" height="140" />
-                <text string="Privil." vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="248" y="0" width="25" height="30" />
+                <text string="F"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="272" y="10" width="25" height="140" />
-                <text string="Points" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="272" y="0" width="25" height="30" />
+                <text string="G"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="296" y="10" width="25" height="140" />
-                <text string="Edit" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="296" y="0" width="25" height="30" />
+                <text string="H"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="318" y="10" width="25" height="140" />
-                <text string="Pub notes" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="318" y="0" width="25" height="30" />
+                <text string="I"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="341" y="10" width="25" height="140" />
-                <text string="Prv notes" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="341" y="0" width="25" height="30" />
+                <text string="J"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="364" y="10" width="25" height="140" />
-                <text string="V.All.Chat" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="364" y="0" width="25" height="30" />
+                <text string="K"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="387" y="10" width="25" height="140" />
-                <text string="All.Chat" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="387" y="0" width="25" height="30" />
+                <text string="L"/>
             </widget>
 
-            <widget name="" factory="pawsTextBox" vertical="yes" >
-                <frame x="410" y="10" width="25" height="140" />
-                <text string="Guild Bank" vertAdjust="BOTTOM"/>
+            <widget name="" factory="pawsTextBox">
+                <frame x="410" y="0" width="25" height="30" />
+                <text string="M"/>
             </widget>
 
 
 
 
             <widget name="LevelList" factory="pawsListBox" xmlbinding="levellist" id="1100" autoid="yes"  selectable="0">
-                <frame x="5" y="160" width="420" height="180" border="no"/>
+                <frame x="5" y="30" width="420" height="180" border="no"/>
                 <columns height="20" headings="no" xmlbinding="l" >
 
                     <column width="90" xmlbinding="title" >
@@ -390,7 +390,7 @@
 
 
             <widget name="motd" factory="pawsMultilineEditTextBox">
-                <frame x="5" y="30" width="390" height="180" border="no"/>
+                <frame x="5" y="30" width="420" height="180" border="no"/>
                 <attachpoints>
                     <attach point="ATTACH_LEFT" />
                     <attach point="ATTACH_RIGHT" />
