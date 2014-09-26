@@ -312,7 +312,7 @@
             </widget>
 
             <widget name="CreateAlliance" factory="pawsButton" id="505" style="Standard Button">
-                <frame x="245" y="3" width="120" height="20" />
+                <frame x="395" y="3" width="120" height="20" />
                 <label text="Create alliance" />
             </widget>
 
@@ -369,7 +369,7 @@
             </widget>
 
             <widget name="Disband" factory="pawsButton" id="504" style="Standard Button">
-                <frame x="475" y="325" width="70" height="20" />
+                <frame x="448" y="325" width="70" height="20" />
                 <label text="Disband" />
             </widget>
         </widget>
