@@ -166,7 +166,7 @@
                         <column width="85" >
                             <widget name="StatsIndCol" factory="pawsWidget">
                                 <widget name="StatsIndicator" factory="pawsSkillIndicator">
-                                    <frame x="5" y="2" width="90" height="12" border="no" />
+                                    <frame x="5" y="2" width="80" height="12" border="no" />
                                 </widget>
                             </widget>
                         </column>
@@ -223,7 +223,7 @@
                         <column width="85" >
                             <widget name="CombatIndCol" factory="pawsWidget">
                                 <widget name="CombatIndicator" factory="pawsSkillIndicator">
-                                    <frame x="5" y="2" width="90" height="12" border="no" />
+                                    <frame x="5" y="2" width="80" height="12" border="no" />
                                 </widget>
                             </widget>
                         </column>
@@ -256,7 +256,7 @@
                         <column width="85" >
                             <widget name="MagicIndCol" factory="pawsWidget">
                                 <widget name="MagicIndicator" factory="pawsSkillIndicator">
-                                    <frame x="5" y="2" width="90" height="12" border="no" />
+                                    <frame x="5" y="2" width="80" height="12" border="no" />
                                 </widget>
                             </widget>
                         </column>
@@ -289,7 +289,7 @@
                         <column width="85" >
                             <widget name="JobsIndCol" factory="pawsWidget">
                                 <widget name="JobsIndicator" factory="pawsSkillIndicator">
-                                    <frame x="5" y="2" width="90" height="12" border="no" />
+                                    <frame x="5" y="2" width="80" height="12" border="no" />
                                 </widget>
                             </widget>
                         </column>
@@ -323,7 +323,7 @@
                         <column width="85" >
                             <widget name="VariousIndCol" factory="pawsWidget">
                                 <widget name="VariousIndicator" factory="pawsSkillIndicator">
-                                    <frame x="5" y="2" width="90" height="12" border="no" />
+                                    <frame x="5" y="2" width="80" height="12" border="no" />
                                 </widget>
                             </widget>
                         </column>
