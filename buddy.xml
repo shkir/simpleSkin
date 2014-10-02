@@ -1,39 +1,36 @@
 <widget_description>
-
     <widget name="BuddyWindow" factory="pawsBuddyWindow" visible="no" savepositions="yes" movable="yes" keepaspect="no" configurable="yes" resizable="yes" style="New Standard GUI">
-
         <frame x="0" y="100" width="105" height="314" border="yes" />
-        <minframe width="110" height="230" />
-        <maxframe width="200" height="860" />
+        <minframe width="110" height="110" />
+        <maxframe width="300" height="860" />
         <title resource="Scaling Title Bar" text="Friend List" align="left" close_button="yes" />
 
-
         <widget name="BuddyList" factory="pawsListBox"  >
-            <frame x="7" y="5" width="90" height="250" border="no" />
-
+            <frame x="3" y="3" width="99" height="255" border="no" />
             <attachpoints>
                 <attach point="ATTACH_RIGHT" />
                 <attach point="ATTACH_TOP" />
                 <attach point="ATTACH_LEFT" />
                 <attach point="ATTACH_BOTTOM" />
             </attachpoints>
-
             <columns height="16">
-                <column width="100" >
+                <column width="300" >
                     <widget name="Name" factory="pawsTextBox">
-                        <text align="CENTRE" />
+                        <text align="LEFT" />
                     </widget>
                 </column>
             </columns>
-
         </widget>
 
         <widget name="BuddyButtons" factory="pawsWidget" selectable="0">
-            <frame x="0" y="265" width="100" height="60" border="yes" />
-
-
-            <widget name="add" factory="pawsButton" toggle="no" id="3000" style="Scaling Button">
-                <frame x="5" y="5" width="35" height="16" border="yes" />
+            <frame x="0" y="265" width="98" height="60" border="no" />
+            <attachpoints>
+                <attach point="ATTACH_RIGHT" />
+                <attach point="ATTACH_LEFT" />
+                <attach point="ATTACH_BOTTOM" />
+            </attachpoints>
+            <widget name="add" factory="pawsButton" toggle="no" id="3000" tooltip="Add character to list" style="Scaling Button">
+                <frame x="4" y="4" width="35" height="16" border="no" />
                 <label text="Add" />
                 <attachpoints>
                     <attach point="PROPORTIONAL_RIGHT" />
@@ -41,19 +38,17 @@
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
             </widget>
-
-            <widget name="remove" factory="pawsButton" toggle="no" id="2000" style="Scaling Button">
-                <frame x="50" y="5" width="45" height="16" border="yes" />
+            <widget name="remove" factory="pawsButton" toggle="no" id="2000" tooltip="Remove character from list" style="Scaling Button">
+                <frame x="47" y="4" width="45" height="16" border="no" />
                 <label text="Remove" />
                 <attachpoints>
-                    <attach point="ATTACH_RIGHT" />
                     <attach point="PROPORTIONAL_LEFT" />
+                    <attach point="ATTACH_RIGHT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
             </widget>
-
-            <widget name="edit" factory="pawsButton" toggle="no" id="4000" style="Scaling Button">
-                <frame x="5" y="30" width="35" height="16" border="yes" />
+            <widget name="edit" factory="pawsButton" toggle="no" id="4000" tooltip="Edit character alias" style="Scaling Button">
+                <frame x="4" y="28" width="35" height="16" border="no" />
                 <label text="Edit" />
                 <attachpoints>
                     <attach point="PROPORTIONAL_RIGHT" />
@@ -61,28 +56,18 @@
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
             </widget>           
-            
-            <widget name="ignore" factory="pawsButton" toggle="yes" tooltip="Add players to ignore list" style="Scaling Button">
-                <frame x="50" y="30" width="45" height="16" />
+            <widget name="ignore" factory="pawsButton" toggle="yes" tooltip="Open ignore list" style="Scaling Button">
+                <frame x="47" y="28" width="45" height="16" />
                 <label text="Ignore" />
                 <eventMouseDown>IgnoreWindow:Show();</eventMouseDown>
-                <eventMouseUp>IgnoreWindow:Hide();</eventMouseUp>
+                <!-- TODO: make this work -->
+                <!-- <eventMouseUp>IgnoreWindow:Hide();</eventMouseUp> -->
                 <attachpoints>
                     <attach point="ATTACH_RIGHT" />
                     <attach point="PROPORTIONAL_LEFT" />
                     <attach point="ATTACH_BOTTOM" />
                 </attachpoints>
             </widget>            
-            
-            
-            <attachpoints>
-                <attach point="PROPORTIONAL_RIGHT" />
-                <attach point="ATTACH_LEFT" />
-                <attach point="ATTACH_BOTTOM" />
-            </attachpoints>
-
         </widget>
-
     </widget>
-
 </widget_description>
