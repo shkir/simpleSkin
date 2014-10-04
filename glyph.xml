@@ -1,173 +1,194 @@
 <widget_description>
 
-    <widget name="GlyphWindow" factory="pawsGlyphWindow"
-            visible="no" savepositions="no" movable="yes"
-            resizable="no" configurable="yes" style="New Standard GUI">
-
-        <frame x="50" y="50" width="460" height="370" border="yes" />
+    <widget name="GlyphWindow" factory="pawsGlyphWindow" visible="no" savepositions="yes" movable="yes" resizable="no" configurable="yes" style="New Standard GUI">
+        <frame x="50" y="50" width="425" height="370" border="yes" />
         <title resource="Scaling Title Bar" text="Glyphs" align="left" close_button="yes" />
 
-
-        <widget name="Purify" factory="pawsButton" id="1000" tooltip="Purify">
-            <frame x="42" y="280" width="36" height="36" />
-            <bgimage resource="PurifyGlyphButton" />
+        <widget name="SpellName" factory="pawsTextBox" >
+            <frame x="5" y="5" width="172" height="20" border="no"/>
         </widget>
-
-        <widget name="Research" factory="pawsButton" id="1003" tooltip="Research">
-            <frame x="79" y="280" width="36" height="36" />
-            <bgimage resource="ResearchSpellButton" />
-        </widget>
-
-        <widget name="Cast" factory="pawsButton" id="1002" tooltip="Cast">
-            <frame x="116" y="280" width="36" height="36" />
-            <bgimage resource="Cast Magic" />
+        <widget name="SpellDescription" factory="pawsMessageTextBox" style="Header Font">
+            <frame x="5" y="25" width="182" height="255" border="no"/>
+            <!-- <bgimage resource="Scaling Field Background" /> -->
         </widget>
 
         <widget name="SpellImage" factory="pawsWidget" id="1004">
-            <frame x="5" y="280" width="36" height="36" border="yes" />
+            <frame x="5" y="285" width="36" height="36" border="yes" />
+        </widget>
+        <widget name="Purify" factory="pawsButton" id="1000" tooltip="Purify">
+            <frame x="42" y="285" width="36" height="36" />
+            <bgimage resource="PurifyGlyphButton" />
+        </widget>
+        <widget name="Research" factory="pawsButton" id="1003" tooltip="Research">
+            <frame x="79" y="285" width="36" height="36" />
+            <bgimage resource="ResearchSpellButton" />
+        </widget>
+        <widget name="Cast" factory="pawsButton" id="1002" tooltip="Cast">
+            <frame x="116" y="285" width="36" height="36" />
+            <bgimage resource="Cast Magic" />
         </widget>
 
-
+        <widget name="assembler0" factory="pawsGlyphSlot" tooltip="Assemble Slot">
+            <frame x="5" y="328" width="36" height="36" />
+        </widget>
+        <widget name="assembler1" factory="pawsGlyphSlot" tooltip="Assemble Slot">
+            <frame x="42" y="328" width="36" height="36" />
+        </widget>
+        <widget name="assembler2" factory="pawsGlyphSlot" tooltip="Assemble Slot">
+            <frame x="79" y="328" width="36" height="36" />
+        </widget>
+        <widget name="assembler3" factory="pawsGlyphSlot" tooltip="Assemble Slot">
+            <frame x="116" y="328" width="36" height="36" />
+        </widget>
+        <widget name="HelpIcon" factory="pawsButton" tooltip="Click for help" id="1005" >
+            <frame x="150" y="330" width="36" height="36" />
+            <font name="/planeshift/data/ttf/LiberationSerif-Regular.ttf" r="121" g="147" b="42" size="20" bold="yes"  />
+            <label text="?" />
+        </widget>
 
 
         <widget name="CrystalIcon" factory="pawsWidget">
-            <frame x="280" y="15" width="36" height="36" />
+            <frame x="190" y="10" width="108" height="108" />
             <bgimage resource="Crystal Magic School" />
         </widget>
+        <widget name="crystal" factory="pawsListBox" selectable="0" >
+            <frame x="190" y="10" width="108" height="108" border="no" />
+            <!-- <bgimage resource="Crystal Magic School" /> -->
+            <scrollbar heightmod="15" />
+            <columns height="36" headings="no" alpha="50" fade="yes">
+                <column width="36" >
+                    <widget name="Col0" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Col1" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Col2" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+            </columns>
+        </widget>
+
         <widget name="BlueIcon" factory="pawsWidget">
-            <frame x="280" y="138" width="36" height="36" />
+            <frame x="190" y="133" width="108" height="108" />
             <bgimage resource="Blue Magic School" />
         </widget>
+        <widget name="blue" factory="pawsListBox" selectable="0">
+            <!-- <bgimage resource="Blue Magic School" /> -->
+            <frame x="190" y="133" width="108" height="108" border="no"/>
+            <scrollbar heightmod="15" />
+            <columns height="36" headings="no" >
+                <column width="36" >
+                    <widget name="Col0" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Col1" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Col2" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+            </columns>
+        </widget>
+
         <widget name="BrownIcon" factory="pawsWidget">
-            <frame x="280" y="261" width="36" height="36" />
+            <frame x="190" y="256" width="108" height="108" />
             <bgimage resource="Brown Magic School" />
+        </widget>
+        <widget name="brown" factory="pawsListBox" selectable="0">
+            <!-- <bgimage resource="Brown Magic School" /> -->
+            <frame x="190" y="256" width="108" height="108" border="no"/>
+            <scrollbar heightmod="15" />
+            <columns height="36" headings="no" >
+                <column width="36" >
+                    <widget name="Col0" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Col1" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Col2" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+            </columns>
         </widget>
 
         <widget name="AzureIcon" factory="pawsWidget">
-            <frame x="300" y="67" width="36" height="36" />
+            <frame x="312" y="10" width="108" height="108" />
             <bgimage resource="Azure Magic School" />
         </widget>
+        <widget name="azure" factory="pawsListBox" selectable="0">
+            <!-- <bgimage resource="Azure Magic School" /> -->
+            <frame x="312" y="10" width="108" height="108" border="no"/>
+            <scrollbar heightmod="15" />
+            <columns height="36" headings="no" >
+                <column width="36" >
+                    <widget name="Col0" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Col1" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Col2" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+            </columns>
+        </widget>
+
         <widget name="RedIcon" factory="pawsWidget">
-            <frame x="300" y="190" width="36" height="36" />
+            <frame x="312" y="133" width="108" height="108" />
             <bgimage resource="Red Magic School" />
         </widget>
+        <widget name="red" factory="pawsListBox" selectable="0">
+            <!-- <bgimage resource="Red Magic School" /> -->
+            <frame x="312" y="133" width="108" height="108" border="no"/>
+            <scrollbar heightmod="15" />
+            <columns height="36" headings="no" >
+                <column width="36" >
+                    <widget name="Col0" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Col1" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+                <column width="36" >
+                    <widget name="Col2" factory="pawsGlyphSlot">
+                        <frame x="0" y="0" width="36" height="36" />
+                    </widget>
+                </column>
+            </columns>
+        </widget>
+
         <widget name="DarkIcon" factory="pawsWidget">
-            <frame x="300" y="313" width="36" height="36" />
+            <frame x="312" y="256" width="108" height="108" />
             <bgimage resource="Dark Magic School" />
         </widget>
-
-        <widget name="crystal" factory="pawsListBox" selectable="0">
-            <frame x="169" y="10" width="108" height="108" border="no"/>
-            <scrollbar heightmod="15" />
-            <columns height="36" headings="no" >
-                <column width="36" >
-                    <widget name="Col0" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-                <column width="36" >
-                    <widget name="Col1" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-                <column width="36" >
-                    <widget name="Col2" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-            </columns>
-        </widget>
-
-        <widget name="blue" factory="pawsListBox" selectable="0">
-            <frame x="169" y="133" width="108" height="108" border="no"/>
-            <scrollbar heightmod="15" />
-            <columns height="36" headings="no" >
-                <column width="36" >
-                    <widget name="Col0" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-                <column width="36" >
-                    <widget name="Col1" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-                <column width="36" >
-                    <widget name="Col2" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-            </columns>
-        </widget>
-
-        <widget name="brown" factory="pawsListBox" selectable="0">
-            <frame x="169" y="256" width="108" height="108" border="no"/>
-            <scrollbar heightmod="15" />
-            <columns height="36" headings="no" >
-                <column width="36" >
-                    <widget name="Col0" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-                <column width="36" >
-                    <widget name="Col1" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-                <column width="36" >
-                    <widget name="Col2" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-            </columns>
-        </widget>
-
-        <widget name="azure" factory="pawsListBox" selectable="0">
-            <frame x="345" y="10" width="108" height="108" border="no"/>
-            <scrollbar heightmod="15" />
-            <columns height="36" headings="no" >
-                <column width="36" >
-                    <widget name="Col0" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-                <column width="36" >
-                    <widget name="Col1" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-                <column width="36" >
-                    <widget name="Col2" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-            </columns>
-        </widget>
-
-        <widget name="red" factory="pawsListBox" selectable="0">
-            <frame x="345" y="133" width="108" height="108" border="no"/>
-            <scrollbar heightmod="15" />
-            <columns height="36" headings="no" >
-                <column width="36" >
-                    <widget name="Col0" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-                <column width="36" >
-                    <widget name="Col1" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-                <column width="36" >
-                    <widget name="Col2" factory="pawsGlyphSlot">
-                        <frame x="0" y="0" width="36" height="36" />
-                    </widget>
-                </column>
-            </columns>
-        </widget>
-
         <widget name="dark" factory="pawsListBox" selectable="0">
-            <frame x="345" y="256" width="108" height="108" border="no"/>
+            <!-- <bgimage resource="Dark Magic School" /> -->
+            <frame x="312" y="256" width="108" height="108" border="no"/>
             <scrollbar heightmod="15" />
             <columns height="36" headings="no" >
                 <column width="36" >
@@ -187,34 +208,18 @@
                 </column>
             </columns>
         </widget>
-
-
-        <widget name="assembler0" factory="pawsGlyphSlot" tooltip="Assemble Slot">
-            <frame x="5" y="323" width="36" height="36" />
-        </widget>
-
-        <widget name="assembler1" factory="pawsGlyphSlot" tooltip="Assemble Slot">
-            <frame x="42" y="323" width="36" height="36" />
-        </widget>
-
-        <widget name="assembler2" factory="pawsGlyphSlot" tooltip="Assemble Slot">
-            <frame x="79" y="323" width="36" height="36" />
-        </widget>
-
-        <widget name="assembler3" factory="pawsGlyphSlot" tooltip="Assemble Slot">
-            <frame x="116" y="323" width="36" height="36" />
-        </widget>
-
-
-        <widget name="SpellName" factory="pawsTextBox" >
-            <frame x="5" y="5" width="170" height="20" border="no"/>
-        </widget>
-
-        <widget name="SpellDescription" factory="pawsMessageTextBox" >
-            <frame x="5" y="25" width="170" height="200" border="no"/>
-        </widget>
-
 
     </widget>
+    <widget name="magichelp" factory="pawsWidget" visible="no" savepositions="no" movable="yes" resizable="no" configurable="no" style="New Standard GUI" alwaysontop="yes">
+        <frame x="30" y="30" width="330" height="240" border="yes" visible="yes" />
+        <title resource="Scaling Title Bar" text="Magic Help" align="left" close_button="yes" />
+        <widget name="Infobox1" factory="pawsMultiLineTextBox" style="Standard Font">
+            <frame x="5" y="0" width="320" height="260" />
+            <text string="Purifying Glyphs:
+To purify a glyph you must pick one up and then drop it onto the 'purify' icon. You then have to wait for the purification to finish. Once it has finished you will see the background of the glyph icon change and you will get a system message saying it has finished.
 
+Researching Spells:
+To research a spell you must first purify every glyph you want to use. Then, taking between 1 and 4 purified glyphs place them in any order you want to try in the 4 spell research slots. Once you have placed 1, 2, 3, or 4 purified glyphs there you then click the research spell button. You may not always succeed when researching spells so you may have to click many times. You also need to have the necessary skill level required to find specific spells. The order of glyphs is also important." />
+        </widget>
+    </widget>
 </widget_description>
