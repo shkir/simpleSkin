@@ -75,7 +75,7 @@
         </widget>
 
         <widget name="BlueIcon" factory="pawsWidget">
-            <frame x="190" y="133" width="108" height="108" />
+            <frame x="195" y="138" width="98" height="98" />
             <bgimage resource="Blue Magic School" />
         </widget>
         <widget name="blue" factory="pawsListBox" selectable="0">
