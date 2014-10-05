@@ -1,8 +1,8 @@
 <xml>
     <skin_information>
-        <name>Elves v2</name>
-        <author>Tay</author>
-        <description>PS skin made by Tay while she was bored and using Elves skin as a template.</description>
+        <name>simpleSkin</name>
+        <author>Taya and Shkirr</author>
+        <description>Minimalist skin designed to make efficient use of screen space.</description>
     </skin_information>
     <mount_path>/paws/real_skin</mount_path>
 </xml>
