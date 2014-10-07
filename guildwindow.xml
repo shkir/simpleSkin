@@ -57,69 +57,168 @@
         <widget name="Permissions_Panel" factory="pawsWidget">
             <frame x="0" y="30" width="555" height="350" border="yes"/>
 
+            <!-- Information widgets -->
+
+            <widget name="" factory="pawsTextBox">
+                <frame x="5" y="210" width="420" height="30" />
+                <text string="Select permissions label for description:"/>
+            </widget>
+
+
+            <widget name="desdefault" factory="pawsMultiLineTextBox" style="Standard Font" visible="yes" border="yes">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string=""/>
+            </widget>
+            <widget name="chatoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'View Chat' option is selected guild members of the level for which it is selected will be able to read all text that is said in the guild chat tab in the 'chat window'"/>
+            </widget>
+            <widget name="vchatoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Chat' option is selected guild members of the level for which it is selected will be able to chat to other guild members in the guild chat tab in the 'chat window'."/>
+            </widget>
+            <widget name="invoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Invite' option is selected guild members of the level for which it is selected will be able to invite any other player they wish into the guild."/>
+            </widget>
+            <widget name="removoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Remove' option is selected guild members of the level for which it is selected will be able to remove any  player they wish from the guild."/>
+            </widget>
+            <widget name="promooptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Promote' option is selected guild members of the level for which it is selected will be able to promote other guild members to levels below that which the player currently has."/>
+            </widget>
+            <widget name="prioptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Privileges' option is selected guild members of the level for which it is selected will be able to adjust which permissions are active for each guild level."/>
+            </widget>
+            <widget name="poioptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Point' option is selected guild members of the level for which it is selected will be able to adjust which permissions are active for each guild level."/>
+            </widget>
+            <widget name="editoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Edit' option is selected guild members of the level for which it is selected will be able to edit the guild settings on the on the 'settings' tab of the guild window."/>
+            </widget>
+            <widget name="pubnoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Public Note' option is selected guild members of the level for which it is selected will be able to see and edit the public notes for guild members. You can view or write them on the 'Members' page of the guild window."/>
+            </widget>
+            <widget name="prinoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Private Note' option is selected guild members of the level for which it is selected will be able to see and edit private notes on guild members. You can view or write them on the 'Members' page of the guild window."/>
+            </widget>
+            <widget name="valicoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'View Alliance Chat' option is selected guild members of the level for which it is selected will be able to read all the talking that occurs in the Alliance tab of the 'Chat window'."/>
+            </widget>
+            <widget name="alicoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Alliance Chat' option is selected guild members of the level for which it is selected will be able to talk with all others in the alliance in the alliance chat tab of the 'Chat window'."/>
+            </widget>
+            <widget name="alicoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Alliance Chat' option is selected guild members of the level for which it is selected will be able to talk with all others in the alliance in the alliance chat tab of the 'Chat window'."/>
+            </widget>
+            <widget name="gbanoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
+                <frame x="5" y="235" width="420" height="50" />
+                <bgimage resource="Scaling Widget Background" alpha="128"/>
+                <text string="When the 'Guild Bank' option is selected guild members of the level for which it is selected will be able to use the guild bank at any suitable NPC. To activate it you must select the NPC and use the following command '/bank guild' which will open a new window where coins can be added or removed."/>
+            </widget>      
+
+
+            <!-- Permission labels -->
             <widget name="" factory="pawsTextBox">
                 <frame x="131" y="0" width="25" height="30" />
                 <text string="A"/>
+                <eventMouseDown>Ret=chatoptdes:Show();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="154" y="0" width="25" height="30" />
                 <text string="B"/>
+                <eventMouseDown>Ret=vchatoptdes:Show();Ret=chatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="179" y="0" width="25" height="30" />
                 <text string="C"/>
+                <eventMouseDown>Ret=invoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="199" y="0" width="25" height="30" />
                 <text string="D"/>
+                <eventMouseDown>Ret=removoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="223" y="0" width="25" height="30" />
                 <text string="E"/>
+                <eventMouseDown>Ret=promooptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="248" y="0" width="25" height="30" />
                 <text string="F"/>
+                <eventMouseDown>Ret=prioptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="272" y="0" width="25" height="30" />
                 <text string="G"/>
+                <eventMouseDown>Ret=poioptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="296" y="0" width="25" height="30" />
                 <text string="H"/>
+                <eventMouseDown>Ret=editoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="318" y="0" width="25" height="30" />
                 <text string="I"/>
+                <eventMouseDown>Ret=pubnoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="341" y="0" width="25" height="30" />
                 <text string="J"/>
+                <eventMouseDown>Ret=prinoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="364" y="0" width="25" height="30" />
                 <text string="K"/>
+                <eventMouseDown>Ret=valicoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="387" y="0" width="25" height="30" />
                 <text string="L"/>
+                <eventMouseDown>Ret=alicoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
             <widget name="" factory="pawsTextBox">
                 <frame x="410" y="0" width="25" height="30" />
                 <text string="M"/>
+                <eventMouseDown>Ret=gbanoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
 
