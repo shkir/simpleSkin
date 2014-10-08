@@ -64,81 +64,75 @@
                 <text string="Select permissions label for description:"/>
             </widget>
 
-
             <widget name="desdefault" factory="pawsMultiLineTextBox" style="Standard Font" visible="yes" border="yes">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string=""/>
             </widget>
             <widget name="chatoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'View Chat' option is selected guild members of the level for which it is selected will be able to read all text that is said in the guild chat tab in the 'chat window'"/>
+                <text string="'View Chat' - ability to read all text in the guild tab of the 'chat window'."/>
             </widget>
             <widget name="vchatoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Chat' option is selected guild members of the level for which it is selected will be able to chat to other guild members in the guild chat tab in the 'chat window'."/>
+                <text string="'Chat' - ability to send messages to other guild members in the guild tab of the 'chat window'."/>
             </widget>
             <widget name="invoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Invite' option is selected guild members of the level for which it is selected will be able to invite any other player they wish into the guild."/>
+                <text string="'Invite' - ability to invite other players into the guild."/>
             </widget>
             <widget name="removoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Remove' option is selected guild members of the level for which it is selected will be able to remove any  player they wish from the guild."/>
+                <text string="'Remove' - ability to remove players with lower guild levels from the guild."/>
             </widget>
             <widget name="promooptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Promote' option is selected guild members of the level for which it is selected will be able to promote other guild members to levels below that which the player currently has."/>
+                <text string="'Promote' - ability to promote other guild members to any level below that which the player currently has."/>
             </widget>
             <widget name="prioptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Privileges' option is selected guild members of the level for which it is selected will be able to adjust which permissions are active for each guild level."/>
+                <text string="'Privileges' - ability to adjust which permissions are active for any level below that which the player currently has."/>
             </widget>
             <widget name="poioptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Point' option is selected guild members of the level for which it is selected will be able to adjust which permissions are active for each guild level."/>
+                <text string="'Points' - ability to adjust the number of points of players with lower guild levels."/>
             </widget>
             <widget name="editoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Edit' option is selected guild members of the level for which it is selected will be able to edit the guild settings on the on the 'settings' tab of the guild window."/>
+                <text string="'Edit' - ability to edit the guild settings on the 'Settings' tab of the guild window."/>
             </widget>
             <widget name="pubnoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Public Note' option is selected guild members of the level for which it is selected will be able to see and edit the public notes for guild members. You can view or write them on the 'Members' page of the guild window."/>
+                <text string="'Public Note' - ability to edit the public notes of guild members with a lower guild level."/>
             </widget>
             <widget name="prinoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Private Note' option is selected guild members of the level for which it is selected will be able to see and edit private notes on guild members. You can view or write them on the 'Members' page of the guild window."/>
+                <text string="'Private Note' - ability to edit private notes of guild members with a lower guild level."/>
             </widget>
             <widget name="valicoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'View Alliance Chat' option is selected guild members of the level for which it is selected will be able to read all the talking that occurs in the Alliance tab of the 'Chat window'."/>
+                <text string="'View Alliance Chat' - ability to read all text in the alliance tab of the 'chat window'."/>
             </widget>
             <widget name="alicoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Alliance Chat' option is selected guild members of the level for which it is selected will be able to talk with all others in the alliance in the alliance chat tab of the 'Chat window'."/>
-            </widget>
-            <widget name="alicoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
-                <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Alliance Chat' option is selected guild members of the level for which it is selected will be able to talk with all others in the alliance in the alliance chat tab of the 'Chat window'."/>
+                <text string="'Alliance Chat' - ability to send messages in the alliance tab of the 'chat window'."/>
             </widget>
             <widget name="gbanoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="50" />
+                <frame x="5" y="235" width="420" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
-                <text string="When the 'Guild Bank' option is selected guild members of the level for which it is selected will be able to use the guild bank at any suitable NPC. To activate it you must select the NPC and use the following command '/bank guild' which will open a new window where coins can be added or removed."/>
+                <text string="'Guild Bank' - ability to use the guild bank at any suitable NPC. To activate it, select the NPC and type '/bank guild'."/>
             </widget>      
 
 
