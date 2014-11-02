@@ -130,7 +130,7 @@
     </pawsButton>
 
     <pawsButton name="Evaluate" id="1205" visible="no" style="Standard Button">
-        <frame x="350" y="225" width="78" height="23"/>
+        <frame x="350" y="203" width="78" height="23"/>
         <label text="Evaluate"/>
     </pawsButton>
 
