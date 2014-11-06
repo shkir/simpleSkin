@@ -95,13 +95,13 @@
                 <attach point="ATTACH_BOTTOM" />
             </attachpoints>
             <columns height="25" headings="yes">
-                <column width="20" sortable="no">
+                <column width="20">
                     <widget name="#" factory="pawsTextBox"></widget>
                 </column>
                 <column width="30" sortable="no">
                     <widget name="Item" factory="pawsWidget"></widget>
                 </column>
-                <column width="65" sortable="no">
+                <column width="65">
                     <widget name="Price" factory="pawsTextBox"></widget>
                 </column>
                 <column width="510">
