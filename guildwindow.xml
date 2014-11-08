@@ -60,158 +60,158 @@
             <!-- Information widgets -->
 
             <widget name="" factory="pawsTextBox">
-                <frame x="5" y="210" width="420" height="30" />
-                <text string="Select permissions label for description:"/>
+                <frame x="5" y="220" width="510" height="30" />
+                <text string="Select permissions icon for description:"/>
             </widget>
 
             <widget name="desdefault" factory="pawsMultiLineTextBox" style="Standard Font" visible="yes" border="yes">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string=""/>
             </widget>
             <widget name="chatoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'View Chat' - ability to read all text in the guild tab of the 'chat window'."/>
             </widget>
             <widget name="vchatoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'Chat' - ability to send messages to other guild members in the guild tab of the 'chat window'."/>
             </widget>
             <widget name="invoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'Invite' - ability to invite other players into the guild."/>
             </widget>
             <widget name="removoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'Remove' - ability to remove players with lower guild levels from the guild."/>
             </widget>
             <widget name="promooptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'Promote' - ability to promote other guild members to any level below that which the player currently has."/>
             </widget>
             <widget name="prioptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'Privileges' - ability to adjust which permissions are active for any level below that which the player currently has."/>
             </widget>
             <widget name="poioptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'Points' - ability to adjust the number of points of players with lower guild levels."/>
             </widget>
             <widget name="editoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'Edit' - ability to edit the guild settings on the 'Settings' tab of the guild window."/>
             </widget>
             <widget name="pubnoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'Public Note' - ability to edit the public notes of guild members with a lower guild level."/>
             </widget>
             <widget name="prinoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'Private Note' - ability to edit private notes of guild members with a lower guild level."/>
             </widget>
             <widget name="valicoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'View Alliance Chat' - ability to read all text in the alliance tab of the 'chat window'."/>
             </widget>
             <widget name="alicoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'Alliance Chat' - ability to send messages in the alliance tab of the 'chat window'."/>
             </widget>
             <widget name="gbanoptdes" factory="pawsMultiLineTextBox" style="Standard Font" visible="no">
-                <frame x="5" y="235" width="420" height="40" />
+                <frame x="5" y="245" width="510" height="40" />
                 <bgimage resource="Scaling Widget Background" alpha="128"/>
                 <text string="'Guild Bank' - ability to use the guild bank at any suitable NPC. To activate it, select the NPC and type '/bank guild'."/>
             </widget>      
 
 
             <!-- Permission labels -->
-            <widget name="" factory="pawsTextBox">
-                <frame x="131" y="0" width="25" height="30" />
-                <text string="A"/>
+            <widget name="" factory="pawsButton" tooltip="View Chat">
+                <frame x="122" y="5" width="30" height="30" />
+                <bgimage resource="GuildReadIcon" />
                 <eventMouseDown>Ret=chatoptdes:Show();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="154" y="0" width="25" height="30" />
-                <text string="B"/>
+            <widget name="" factory="pawsButton" tooltip="Chat">
+                <frame x="152" y="5" width="30" height="30" />
+                <bgimage resource="GuildWriteIcon" />
                 <eventMouseDown>Ret=vchatoptdes:Show();Ret=chatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="179" y="0" width="25" height="30" />
-                <text string="C"/>
+            <widget name="" factory="pawsButton" tooltip="Invite">
+                <frame x="182" y="5" width="30" height="30" />
+                <bgimage resource="GuildInviteIcon" />
                 <eventMouseDown>Ret=invoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="199" y="0" width="25" height="30" />
-                <text string="D"/>
+            <widget name="" factory="pawsButton" tooltip="Remove">
+                <frame x="212" y="5" width="30" height="30" />
+                <bgimage resource="GuildRemoveIcon" />
                 <eventMouseDown>Ret=removoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="223" y="0" width="25" height="30" />
-                <text string="E"/>
+            <widget name="" factory="pawsButton" tooltip="Promote">
+                <frame x="242" y="5" width="30" height="30" />
+                <bgimage resource="GuildPromoteIcon" />
                 <eventMouseDown>Ret=promooptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="248" y="0" width="25" height="30" />
-                <text string="F"/>
+            <widget name="" factory="pawsButton" tooltip="Privileges">
+                <frame x="272" y="5" width="30" height="30" />
+                <bgimage resource="GuildPrivilegesIcon" />
                 <eventMouseDown>Ret=prioptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="272" y="0" width="25" height="30" />
-                <text string="G"/>
+            <widget name="" factory="pawsButton" tooltip="Points">
+                <frame x="302" y="5" width="30" height="30" />
+                <bgimage resource="GuildPointsIcon" />
                 <eventMouseDown>Ret=poioptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="296" y="0" width="25" height="30" />
-                <text string="H"/>
+            <widget name="" factory="pawsButton" tooltip="Edit">
+                <frame x="332" y="5" width="30" height="30" />
+                <bgimage resource="GuildEditIcon" />
                 <eventMouseDown>Ret=editoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="318" y="0" width="25" height="30" />
-                <text string="I"/>
+            <widget name="" factory="pawsButton" tooltip="Public Note">
+                <frame x="362" y="5" width="30" height="30" />
+                <bgimage resource="GuildPublicNoteIcon" />
                 <eventMouseDown>Ret=pubnoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="341" y="0" width="25" height="30" />
-                <text string="J"/>
+            <widget name="" factory="pawsButton" tooltip="Private Note">
+                <frame x="392" y="5" width="30" height="30" />
+                <bgimage resource="GuildPrivateNoteIcon" />
                 <eventMouseDown>Ret=prinoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="364" y="0" width="25" height="30" />
-                <text string="K"/>
+            <widget name="" factory="pawsButton" tooltip="View Alliance Chat">
+                <frame x="422" y="5" width="30" height="30" />
+                <bgimage resource="GuildAllianceReadIcon" />
                 <eventMouseDown>Ret=valicoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=alicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="387" y="0" width="25" height="30" />
-                <text string="L"/>
+            <widget name="" factory="pawsButton" tooltip="Alliance Chat">
+                <frame x="452" y="5" width="30" height="30" />
+                <bgimage resource="GuildAllianceWriteIcon" />
                 <eventMouseDown>Ret=alicoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=gbanoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
-            <widget name="" factory="pawsTextBox">
-                <frame x="410" y="0" width="25" height="30" />
-                <text string="M"/>
+            <widget name="" factory="pawsButton" tooltip="Guild Bank">
+                <frame x="482" y="5" width="30" height="30" />
+                <bgimage resource="GuildBankIcon" />
                 <eventMouseDown>Ret=gbanoptdes:Show();Ret=chatoptdes:Hide();Ret=vchatoptdes:Hide();Ret=invoptdes:Hide();Ret=removoptdes:Hide();Ret=promooptdes:Hide();Ret=prioptdes:Hide();Ret=poioptdes:Hide();Ret=editoptdes:Hide();Ret=pubnoptdes:Hide();Ret=prinoptdes:Hide();Ret=valicoptdes:Hide();Ret=alicoptdes:Hide();Ret=desdefault:Hide()</eventMouseDown>
             </widget>
 
@@ -219,7 +219,7 @@
 
 
             <widget name="LevelList" factory="pawsListBox" xmlbinding="levellist" id="1100" autoid="yes"  selectable="0">
-                <frame x="5" y="30" width="420" height="180" border="no"/>
+                <frame x="5" y="40" width="510" height="180" border="no"/>
                 <columns height="20" headings="no" xmlbinding="l" >
 
                     <column width="90" xmlbinding="title" >
@@ -234,55 +234,55 @@
                         <widget name="Level" factory="pawsTextBox"></widget>
                     </column>
 
-                    <column width="23" xmlbinding="view_chat" >
+                    <column width="30" xmlbinding="view_chat" >
                         <widget name="View Chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="chat" >
+                    <column width="30" xmlbinding="chat" >
                         <widget name="Chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="invite" >
+                    <column width="30" xmlbinding="invite" >
                         <widget name="Invite" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="remove" >
+                    <column width="30" xmlbinding="remove" >
                         <widget name="Remove" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="promote" >
+                    <column width="30" xmlbinding="promote" >
                         <widget name="Promote" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="edit_level" >
+                    <column width="30" xmlbinding="edit_level" >
                         <widget name="Edit level" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="edit_points" >
+                    <column width="30" xmlbinding="edit_points" >
                         <widget name="Edit points" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="edit_guild" >
+                    <column width="30" xmlbinding="edit_guild" >
                         <widget name="Edit guild" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="edit_public" >
+                    <column width="30" xmlbinding="edit_public" >
                         <widget name="Edit public" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="edit_private" >
+                    <column width="30" xmlbinding="edit_private" >
                         <widget name="Edit private" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="alliance_view_chat" >
+                    <column width="30" xmlbinding="alliance_view_chat" >
                         <widget name="View alliance chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="alliance_chat" >
+                    <column width="30" xmlbinding="alliance_chat" >
                         <widget name="Alliance chat" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 
-                    <column width="23" xmlbinding="guild_bank" >
+                    <column width="30" xmlbinding="guild_bank" >
                         <widget name="Guild bank" factory="pawsCheckBox"><text string="" position="right"/></widget>
                     </column>
 

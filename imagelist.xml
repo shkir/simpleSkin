@@ -8,7 +8,48 @@
     
     <!-- mouse cursors -->
     <image file="/paws/real_skin/mouse.png" resource="Skins Normal Mouse Pointer">
-        <texturerect x="0" y="0" width="32" height="32" /> 
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+
+    <!-- Guild window icons -->
+    <image file="/paws/real_skin/permissionIcons/GuildRead.png" resource="GuildReadIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildWrite.png" resource="GuildWriteIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildInvite.png" resource="GuildInviteIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildRemove.png" resource="GuildRemoveIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildPromote.png" resource="GuildPromoteIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildPrivileges.png" resource="GuildPrivilegesIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildPoints.png" resource="GuildPointsIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildEdit.png" resource="GuildEditIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildPublicNote.png" resource="GuildPublicNoteIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildPrivateNote.png" resource="GuildPrivateNoteIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildAllianceRead.png" resource="GuildAllianceReadIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildAllianceWrite.png" resource="GuildAllianceWriteIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
+    </image>
+    <image file="/paws/real_skin/permissionIcons/GuildBank.png" resource="GuildBankIcon">
+        <texturerect x="0" y="0" width="30" height="30" /> 
     </image>
     
     <!-- ornaments and decorations -->
