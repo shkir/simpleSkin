@@ -245,7 +245,10 @@
     <image file="/paws/real_skin/icons.png" resource="ButtonUnmount">
         <texturerect x="704" y="64" width="64" height="64" /> 
     </image>
-    
+    <image file="/paws/real_skin/icons.png" resource="ButtonStorage">
+        <texturerect x="768" y="64" width="64" height="64" /> 
+    </image>
+
     
     <!-- standard buttons and backgrounds -->
     
