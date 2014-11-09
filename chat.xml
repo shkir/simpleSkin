@@ -47,7 +47,7 @@
             </widget>
             <widget name="Chat Button" factory="pawsButton" toggle="yes" id="1008" tooltip="Channels" shadows="yes" style="Standard Tab">
                 <label text="Channels"/>
-                <frame x="62" y="0" width="60" height="20" border="no"/>
+                <frame x="60" y="0" width="60" height="20" border="no"/>
                 <attachpoints>
                     <attach point="ATTACH_TOP" />
                     <attach point="ATTACH_LEFT" />
@@ -55,7 +55,7 @@
 
             </widget>
             <widget name="NPC Button" factory="pawsButton" toggle="yes" id="1002" tooltip="NPC" shadows="yes" style="Standard Tab">
-                <frame x="0" y="50" width="60" height="20" border="no" />
+                <frame x="120" y="0" width="60" height="20" border="no" />
                 <label text="NPC"/>
                 <attachpoints>
                     <attach point="ATTACH_TOP" />
@@ -64,7 +64,7 @@
 
             </widget>
             <widget name="Tell Button" factory="pawsButton" toggle="yes" id="1003" tooltip="Whisper" shadows="yes" style="Standard Tab">
-                <frame x="0" y="75" width="60" height="20" border="no" />
+                <frame x="180" y="0" width="60" height="20" border="no" />
                 <label text="Whisper"/>
                 <attachpoints>
                     <attach point="ATTACH_TOP" />
@@ -73,7 +73,7 @@
 
             </widget>
             <widget name="Guild Button" factory="pawsButton" toggle="yes" id="1004" tooltip="Guild" shadows="yes" style="Standard Tab">
-                <frame x="0" y="100" width="60" height="20" border="no" />
+                <frame x="240" y="0" width="60" height="20" border="no" />
                 <label text="Guild"/>
                 <attachpoints>
                     <attach point="ATTACH_TOP" />
@@ -82,7 +82,7 @@
 
             </widget>
             <widget name="Group Button" factory="pawsButton" toggle="yes" id="1005" tooltip="Group" shadows="yes" style="Standard Tab">
-                <frame x="0" y="125" width="60" height="20" border="no" />
+                <frame x="300" y="0" width="60" height="20" border="no" />
                 <label text="Group"/>
                 <attachpoints>
                     <attach point="ATTACH_TOP" />
@@ -91,7 +91,7 @@
 
             </widget>
             <widget name="Alliance Button" factory="pawsButton" toggle="yes" id="1009" tooltip="Alliance" shadows="yes" style="Standard Tab">
-                <frame x="0" y="150" width="60" height="20" border="no" />
+                <frame x="360" y="0" width="60" height="20" border="no" />
                 <label text="Alliance"/>
                 <attachpoints>
                     <attach point="ATTACH_TOP" />
@@ -100,7 +100,7 @@
 
             </widget>
             <widget name="Auction Button" factory="pawsButton" toggle="yes" id="1006" tooltip="Auction" shadows="yes" style="Standard Tab">
-                <frame x="0" y="175" width="60" height="20" border="no" />
+                <frame x="420" y="0" width="60" height="20" border="no" />
                 <label text="Auction"/>
                 <attachpoints>
                     <attach point="ATTACH_TOP" />
@@ -110,7 +110,7 @@
             </widget>
             <widget name="System Button" factory="pawsButton" toggle="yes" id="1001" tooltip="System" shadows="yes" style="Standard Tab">
                 <label text="System"/>
-                <frame x="0" y="200" width="60" height="20" border="no" />
+                <frame x="480" y="0" width="60" height="20" border="no" />
                 <attachpoints>
                     <attach point="ATTACH_TOP" />
                     <attach point="ATTACH_LEFT" />
@@ -119,7 +119,7 @@
             </widget>
             <widget name="Help Button" factory="pawsButton" toggle="yes" id="1007" tooltip="Help" shadows="yes" style="Standard Tab">
                 <label text="Help"/>
-                <frame x="0" y="225" width="60" height="20" border="no" />
+                <frame x="540" y="0" width="60" height="20" border="no" />
                 <attachpoints>
                     <attach point="ATTACH_TOP" />
                     <attach point="ATTACH_LEFT" />
