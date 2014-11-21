@@ -3,7 +3,7 @@
     <widget name="SpellBookWindow" factory="pawsSpellBookWindow" visible="no" savepositions="yes" movable="yes" resizable="no"
             configurable="yes" style="New Standard GUI">
 
-        <frame x="100" y="100" width="460" height="305" border="yes" />
+        <frame x="100" y="100" width="460" height="300" border="yes" />
         <title resource="Scaling Title Bar" text="Spell Book" align="left" close_button="yes"/>
 
         <widget name="Description" factory="pawsMessageTextBox" style="Header Font">
@@ -30,25 +30,22 @@
             <frame x="5" y="10" width="300" height="285" margin="5" border="no" />
             <columns height="20" headings="yes">
                 <column width="130" height="20" >
-                    <widget name="Name" factory="pawsTextBox">
-                    </widget>
+                    <widget name="Name" factory="pawsTextBox"/>
                 </column>
                 <column width="20" sortable="false" >
-                    <widget name="" factory="pawsWidget">
-                    </widget>
+                    <widget name="" factory="pawsWidget"/>
                 </column>
                 <column width="20" sortable="false" >
-                    <widget name="" factory="pawsWidget"></widget>
+                    <widget name="" factory="pawsWidget"/>
                 </column>
                 <column width="20" sortable="false" >
-                    <widget name="" factory="pawsWidget"></widget>
+                    <widget name="" factory="pawsWidget"/>
                 </column>
                 <column width="20" sortable="false" >
-                    <widget name="" factory="pawsWidget"></widget>
+                    <widget name="" factory="pawsWidget"/>
                 </column>
                 <column width="45" >
-                    <widget name="Way" factory="pawsTextBox">
-                    </widget>
+                    <widget name="Way" factory="pawsTextBox"/>
                 </column>
                 <column width="45" >
                     <widget name="Realm" factory="pawsTextBox">
@@ -57,7 +54,6 @@
                 </column>
             </columns>
         </widget>
-
 
     </widget>
 
